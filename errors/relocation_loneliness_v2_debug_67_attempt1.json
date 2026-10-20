@@ -1,0 +1,35 @@
+{
+  "category": "relocation_loneliness",
+  "persona": {
+    "id": "p18",
+    "age": 35,
+    "gender": "female",
+    "background": "pregnancy loss, husband does not know how to talk about it, family moved on quickly",
+    "region": "Hyderabad",
+    "language": "english",
+    "presentation": "isolated, the grief feels unspeakable, minimizing to avoid burdening husband",
+    "specific_pressure": "culturally this grief is not fully acknowledged, pressure to try again quickly"
+  },
+  "seed": "I moved for my partner but they're not here anymore. Now I'm stuck in a city where I know no one.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I moved for my partner but they're not here anymore. Now I'm stuck in a city where I know no one."
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

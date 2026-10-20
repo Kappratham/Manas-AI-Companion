@@ -1,0 +1,64 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p14",
+      "age": 27,
+      "gender": "female",
+      "background": "UPSC aspirant, 4th attempt, family waiting, savings depleted, everyone around her has moved on",
+      "region": "Allahabad",
+      "language": "english",
+      "presentation": "identity completely fused with exam, does not know who she is outside of it",
+      "specific_pressure": "cannot quit because of family investment, cannot continue because emotionally depleted"
+    },
+    "seed": "We had a complicated relationship and now I can't grieve cleanly because it's all mixed up with things that never got resolved.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "We had a complicated relationship and now I can't grieve cleanly because it's all mixed up with things that never got resolved."
+      },
+      {
+        "role": "assistant",
+        "content": "Complicated relationships can leave a lot of emotional residue. What's the most difficult part of grieving for you right now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know... it's just hard to process everything that happened. It's all so tied up with my UPSC prep and family expectations."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like your grief is closely tied to your identity and sense of purpose. Can you tell me more about how your relationship and UPSC prep intersect?"
+      },
+      {
+        "role": "user",
+        "content": "I guess I always felt like I was living for my family and my exam. My partner was the only one who truly understood me, but now I feel lost."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're feeling a sense of identity diffusion. What does it feel like to acknowledge that you don't know who you are outside of your exam and family expectations?"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're carrying a lot of emotional weight. What would feel like a small step for you to acknowledge and process your grief, rather than pushing it aside for your exam prep?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's okay to feel lost and unsure of yourself right now. What do you need from me in this moment?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

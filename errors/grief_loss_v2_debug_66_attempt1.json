@@ -1,0 +1,72 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p32",
+      "age": 37,
+      "gender": "female",
+      "background": "caretaker of mother with dementia for 3 years, own life on hold, exhausted, occasional resentment she feels guilty about",
+      "region": "Chennai",
+      "language": "english",
+      "presentation": "guilt about resentment, cannot name it without self-punishment",
+      "specific_pressure": "culturally this is her duty as daughter, no room to say it is destroying her"
+    },
+    "seed": "Lost my savings in a scam. Grieving the financial security I thought I had.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "That's a heavy loss. What does it feel like to lose something you thought was stable?"
+      },
+      {
+        "role": "user",
+        "content": "It's just a small setback. I'll recover. I've been in tougher situations before."
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, you've overcome challenges before. What's it about this situation that makes it feel different?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, it's just...I feel like I'm not in control anymore. Everything's falling apart."
+      },
+      {
+        "role": "assistant",
+        "content": "Not being in control can be really unsettling. Are you feeling like you're carrying a weight that nobody else sees?"
+      },
+      {
+        "role": "user",
+        "content": "I guess so. But it's not like I'm drowning or anything. I can handle it."
+      },
+      {
+        "role": "assistant",
+        "content": "You're downplaying it, but it's okay to not be okay. What does it feel like to say that out loud – that you're struggling?"
+      },
+      {
+        "role": "user",
+        "content": "I...I don't know. I feel stupid for even thinking about it."
+      },
+      {
+        "role": "assistant",
+        "content": "You don't feel stupid. You're trying to make sense of things. What would feel like one small step – not a plan, just one thing – to acknowledge this struggle?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sitting with this feeling is enough for now. Let's just be here with it."
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

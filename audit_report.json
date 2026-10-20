@@ -1,0 +1,185 @@
+{
+  "total": 727,
+  "passed": 722,
+  "failed": 5,
+  "pass_rate": 0.9931224209078404,
+  "failure_reasons": {
+    "response_length": 5
+  },
+  "per_category": [
+    {
+      "category": "academic_pressure",
+      "file": "output\\academic_pressure.jsonl",
+      "total": 51,
+      "passed": 51,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "burnout_motivation",
+      "file": "output\\burnout_motivation.jsonl",
+      "total": 66,
+      "passed": 66,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "burnout_motivation_v2",
+      "file": "output\\burnout_motivation_v2.jsonl",
+      "total": 3,
+      "passed": 0,
+      "failed": 3,
+      "pass_rate": 0.0,
+      "failure_reasons": {
+        "response_length": 3
+      },
+      "failed_indices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "category": "career_anxiety",
+      "file": "output\\career_anxiety.jsonl",
+      "total": 80,
+      "passed": 80,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "career_anxiety_v2",
+      "file": "output\\career_anxiety_v2.jsonl",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "pass_rate": 0.0,
+      "failure_reasons": {
+        "response_length": 1
+      },
+      "failed_indices": [
+        1
+      ]
+    },
+    {
+      "category": "coping_mechanisms",
+      "file": "output\\coping_mechanisms.jsonl",
+      "total": 71,
+      "passed": 71,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "financial_stress",
+      "file": "output\\financial_stress.jsonl",
+      "total": 52,
+      "passed": 52,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "grief_loss",
+      "file": "output\\grief_loss.jsonl",
+      "total": 70,
+      "passed": 70,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "grief_loss_v2",
+      "file": "output\\grief_loss_v2.jsonl",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "identity_confusion",
+      "file": "output\\identity_confusion.jsonl",
+      "total": 80,
+      "passed": 80,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "identity_confusion_v2",
+      "file": "output\\identity_confusion_v2.jsonl",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "parental_expectations",
+      "file": "output\\parental_expectations.jsonl",
+      "total": 58,
+      "passed": 58,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "relationship_stress",
+      "file": "output\\relationship_stress.jsonl",
+      "total": 79,
+      "passed": 79,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "relocation_loneliness",
+      "file": "output\\relocation_loneliness.jsonl",
+      "total": 50,
+      "passed": 50,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "trauma_patterns",
+      "file": "output\\trauma_patterns.jsonl",
+      "total": 63,
+      "passed": 63,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "failure_reasons": {},
+      "failed_indices": []
+    },
+    {
+      "category": "trauma_patterns_v2",
+      "file": "output\\trauma_patterns_v2.jsonl",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "pass_rate": 0.0,
+      "failure_reasons": {
+        "response_length": 1
+      },
+      "failed_indices": [
+        1
+      ]
+    }
+  ]
+}

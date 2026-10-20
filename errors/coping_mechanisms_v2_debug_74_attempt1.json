@@ -1,0 +1,39 @@
+{
+  "category": "coping_mechanisms",
+  "persona": {
+    "id": "p67",
+    "age": 21,
+    "gender": "male",
+    "background": "only child, parents have high conflict marriage, has been emotional support for both parents since childhood, exhausted, no one has ever been his support",
+    "region": "Kolkata",
+    "language": "english",
+    "presentation": "mature beyond age, reflexively supportive, finds it physically uncomfortable to talk about himself",
+    "specific_pressure": "the role of supporter is the only identity he knows, being the one who needs help feels wrong"
+  },
+  "seed": "I've been running longer distances every week. My body is tired but stopping means sitting with myself.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I've been running longer distances every week. My body is tired but stopping means sitting with myself."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a lot of pressure on yourself. What does it feel like to keep pushing through even when your body is tired?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

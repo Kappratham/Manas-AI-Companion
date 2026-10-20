@@ -1,0 +1,566 @@
++---------------------------------------------------------+
+| Rescoring Generated Conversations                       |
+| Threshold: 7/10 | Dry Run: True | Delete Failing: False |
++---------------------------------------------------------+
+
+Processing category: grief_loss
+Scorer raw (first 300 chars): arc_adherence: 1/2 — The conversation follows the
+arc of grief and workaholism well, but Manas cuts off mid-sentence on the final
+turn, leaving the core intervention incomplete and the user's fear unaddressed.
+
+reflection_quality: 2/2 — Manas consistently mirrors the user's internal 
+conflict with pr
+Scorer raw (first 300 chars): arc_adherence: 2/2 — The conversation follows the
+arc of grief, fear of inheritance, and a gentle, incremental coping step. It 
+respects the user's emotional state without forcing a resolution.
+
+reflection_quality: 2/2 — Manas accurately reflects the user's layered fear 
+(becoming father + grief + wor
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply within 
+the arc: sitting with the user's anger toward God and community, exploring the 
+burden of being the sole keeper of memory, and ending with a gentle, 
+non-prescriptive prompt that honors the user's pace.
+
+reflection_quality: 2/2 — Manas mirrors the user's 
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas follows the arc 
+accurately: validates the silence, explores the dual feeling of relief and 
+guilt, pivots to the core identity fear, and ends with a grounded, small-scale 
+sitting exercise that respects the user's pace.
+
+reflection_quality: 2/2 — Manas mirrors the user's mix
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas follows the arc of 
+grief and isolation well, staying grounded in the user's emotional journey 
+without forcing a resolution or jumping ahead.
+
+reflection_quality: 2/2 — The reflections are precise and capture the user's 
+nuanced feelings (e.g., "protection feels like a shiel
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p04__005: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p52__006: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p23__007: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p26__008: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p69__009: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p14__010: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p21__011: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p70__012: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p28__013: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p68__014: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p04__015: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p44__016: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p46__017: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p23__018: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p13__019: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p57__020: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p35__021: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p26__022: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p58__023: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p08__024: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p33__025: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p60__026: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p21__027: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p16__028: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p18__029: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p54__030: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p56__031: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p14__032: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p20__033: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p28__034: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p47__035: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p35__036: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p46__037: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p37__038: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p64__039: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p21__040: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p69__041: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p09__042: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p44__043: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p47__044: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p58__045: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p32__046: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p25__047: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p45__048: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p51__049: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p13__050: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p28__051: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p09__052: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p70__053: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p47__054: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p33__055: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p47__056: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Scorer raw (first 300 chars): arc_adherence: 2/2 — Manas stays deeply aligned 
+with the grief/pregnancy loss thread. Every turn circles back to the user’s 
+internal state, the partner’s dynamic, and the "fine" persona. No sudden pivots
+to unrelated topics or generic advice. The arc moves naturally from performance
+Error scoring grief_loss__p14__057: 'charmap' codec can't encode character 
+'\u2192' in position 8: character maps to <undefined>

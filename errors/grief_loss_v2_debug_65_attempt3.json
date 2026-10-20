@@ -1,0 +1,40 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p10",
+      "age": 34,
+      "gender": "female",
+      "background": "nurse, government hospital, 12 hour shifts, secondary trauma from patient deaths, no support system at work",
+      "region": "Kerala",
+      "language": "english",
+      "presentation": "clinically detached, uses medical language to describe own distress",
+      "specific_pressure": "healthcare workers not supposed to struggle, expected to cope professionally"
+    },
+    "seed": "We had a complicated relationship and now I can't grieve cleanly because it's all mixed up with things that never got resolved.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "We had a complicated relationship and now I can't grieve cleanly because it's all mixed up with things that never got resolved."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a heavy mix of emotions. What's the most difficult part of it for you right now?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

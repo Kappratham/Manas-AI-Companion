@@ -1,0 +1,71 @@
+{
+  "category": "grief_loss",
+  "persona": {
+    "id": "p60",
+    "age": 29,
+    "gender": "male",
+    "background": "HR professional, comes in to ask about managing difficult conversations at work, actual issue is that he cannot have difficult conversations in his own marriage",
+    "region": "Bangalore",
+    "language": "english",
+    "presentation": "professional framing of everything, uses corporate language to describe personal situations",
+    "specific_pressure": "can coach others through conflict, completely avoids it at home"
+  },
+  "seed": "Father has Alzheimer's. Losing him twice - once to the disease, once when he forgets who I am.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "Father has Alzheimer's. Losing him twice - once to the disease, once when he forgets who I am."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm so sorry to hear about your father. That must be incredibly painful for you. What's been the most challenging part of this experience so far?"
+    },
+    {
+      "role": "user",
+      "content": "It's just...I feel like I'm losing him twice. Once when the disease takes him, and then when he forgets who I am. It's hard to explain."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're feeling a deep sense of loss and disconnection. It's not just the disease that's taking him away, but also the person he is to you. Can you tell me more about what that feels like?"
+    },
+    {
+      "role": "user",
+      "content": "I guess I'm just trying to come to terms with it all. It's hard to accept that he's not going to be the same person he was before."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're struggling with the idea of losing your father as you knew him. That must be incredibly difficult. What do you think would be one small thing that would make this process feel a little more manageable for you?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know...I just feel like I'm not doing enough to help him, I guess."
+    },
+    {
+      "role": "assistant",
+      "content": "You're carrying a lot of responsibility and guilt around your father's situation. It sounds like you're feeling a sense of inadequacy. What would it be like to acknowledge that you're doing the best you can, and that's enough?"
+    },
+    {
+      "role": "user",
+      "content": "I suppose that's true. I just wish there was more I could do to help him."
+    },
+    {
+      "role": "assistant",
+      "content": "It's okay to feel that way, but it's also important to recognize that there is only so much you can do. Sometimes the hardest thing is to let go and trust that your father is getting the care he needs. Can you imagine what it would be like to take a deep breath and trust that everything will be okay, even if it's not exactly as you want it to be?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "no_hollow_reassurance_v2"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

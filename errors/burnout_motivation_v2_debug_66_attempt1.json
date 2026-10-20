@@ -1,0 +1,39 @@
+{
+  "category": "burnout_motivation",
+  "persona": {
+    "id": "p49",
+    "age": 24,
+    "gender": "male",
+    "background": "has researched psychology extensively, knows the frameworks, still stuck, frustrated that knowledge is not translating to change",
+    "region": "Pune",
+    "language": "english",
+    "presentation": "uses clinical language accurately, intellectually advanced, emotionally bypassing",
+    "specific_pressure": "knowing what is wrong has become another way to avoid feeling it"
+  },
+  "seed": "My team lead sent a message saying great work today. I felt nothing. That used to mean something to me.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY:"
+    },
+    {
+      "role": "user",
+      "content": "My team lead sent a message saying great work today. I felt nothing. That used to mean something to me."
+    },
+    {
+      "role": "assistant",
+      "content": "Your team lead's message would have usually gotten a reaction from you, but today it didn't. Can you tell me more about what's been going on lately?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

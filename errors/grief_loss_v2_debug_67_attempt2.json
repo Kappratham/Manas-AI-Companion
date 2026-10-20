@@ -1,0 +1,40 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p21",
+      "age": 23,
+      "gender": "male",
+      "background": "shuts down completely in conflict, then spirals in shame afterward, pattern since childhood with angry father",
+      "region": "Jaipur",
+      "language": "english",
+      "presentation": "analytical about the pattern, frustrated he cannot break it",
+      "specific_pressure": "partner is losing patience, he is losing patience with himself"
+    },
+    "seed": "Best friend moved abroad permanently. Knows it's not death but it feels like grief.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Best friend moved abroad permanently. Knows it's not death but it feels like grief."
+      },
+      {
+        "role": "assistant",
+        "content": "Grief can be overwhelming, especially when it's not a traditional loss like death. How are you coping with this feeling?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

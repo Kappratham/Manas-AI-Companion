@@ -1,0 +1,39 @@
+{
+  "conversations": {
+    "category": "identity_confusion",
+    "persona": {
+      "id": "p34",
+      "age": 44,
+      "gender": "female",
+      "background": "chronic pain condition, dismissed by doctors for years, now distrusts medical system and her own perception of pain",
+      "region": "Kolkata",
+      "language": "english",
+      "presentation": "frustrated, has been told it is in her head so many times she half believes it",
+      "specific_pressure": "gaslighted by medical system, now gaslights herself"
+    },
+    "seed": "I spent my whole life being the 'good, smart kid' to make my family happy. Now that I'm on my own, I have no idea what I actually like.",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "I spent my whole life being the 'good, smart kid' to make my family happy. Now that I'm on my own, I have no idea what I actually like."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a big change. What does it feel like to be without that structure now?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "system_prompt_present",
+      "turns_range",
+      "response_length"
+    ],
+    "pass_count": 18,
+    "fail_count": 3,
+    "version": "v2"
+  }
+}

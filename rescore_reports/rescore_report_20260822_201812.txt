@@ -1,0 +1,25 @@
+RESCORE REPORT
+==============
+Date: 2026-08-22 20:18:12
+Min score threshold: 9/10
+Delete failing: yes
+Concurrency: 3
+
+CATEGORY RESULTS
+────────────────────────────────────────────────────────────────
+Category                  Total  Pass   Fail   Pass%  Deleted 
+relationship_stress           60     58      2   96%         2
+────────────────────────────────────────────────────────────────
+TOTAL                         60     58      2   96%         2
+
+DIMENSION AVERAGES (passing conversations only)
+Arc Adherence             1.98
+Reflection Quality        2.00
+Question Discipline       1.81
+Cultural Groundedness     2.00
+Voice Consistency         2.00
+
+FILES
+Filtered → output_filtered/   (58 conversations)
+Rejected → output_rejected/   (2 conversations — kept for inspection)
+Report   → rescore_reports\rescore_report_20260822_201812.txt

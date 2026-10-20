@@ -1,0 +1,35 @@
+{
+  "category": "identity_confusion",
+  "persona": {
+    "id": "p24",
+    "age": 33,
+    "gender": "male",
+    "background": "raised in household with alcoholic parent, now extremely controlled person, cannot tolerate uncertainty",
+    "region": "Goa",
+    "language": "english",
+    "presentation": "controlled, precise, uncomfortable with ambiguity, does not connect current behavior to past",
+    "specific_pressure": "relationship suffering because partner cannot reach him emotionally"
+  },
+  "seed": "I've changed careers twice and I'm still not satisfied. What's wrong with me?",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I've changed careers twice and I'm still not satisfied. What's wrong with me?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

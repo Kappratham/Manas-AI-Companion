@@ -1,0 +1,80 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p21",
+      "age": 23,
+      "gender": "male",
+      "background": "shuts down completely in conflict, then spirals in shame afterward, pattern since childhood with angry father",
+      "region": "Jaipur",
+      "language": "english",
+      "presentation": "analytical about the pattern, frustrated he cannot break it",
+      "specific_pressure": "partner is losing patience, he is losing patience with himself"
+    },
+    "seed": "Best friend moved abroad permanently. Knows it's not death but it feels like grief.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Best friend moved abroad permanently. Knows it's not death but it feels like grief."
+      },
+      {
+        "role": "assistant",
+        "content": "I'm hearing that it feels like a big loss, even though it's not a death. Can you tell me more about what's been hard for you?"
+      },
+      {
+        "role": "user",
+        "content": "I mean, it's not like he died or anything. It's just...I don't know. It feels like a part of me is gone."
+      },
+      {
+        "role": "assistant",
+        "content": "You're saying it feels like a part of you is missing, even though he's still alive. That's a really interesting way to put it. What do you think is behind that feeling?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. I guess I just feel like I'm losing touch with him and it's not going to get better."
+      },
+      {
+        "role": "assistant",
+        "content": "You're feeling like you're losing him, and that's a really painful thing to experience. Can you tell me more about what you're worried about happening to your relationship?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I guess I just feel like I'm not good enough or something."
+      },
+      {
+        "role": "assistant",
+        "content": "You're feeling like you're not good enough, and that's a really heavy feeling to carry. Is it possible that this feeling of not being good enough is connected to your childhood experiences with your father?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah...I guess it is. I just feel like I'm repeating the same patterns with him and I don't know how to stop it."
+      },
+      {
+        "role": "assistant",
+        "content": "You're recognizing a pattern from your childhood that you're seeing in your current relationship. That takes a lot of courage. What do you think would be one small, tiny step you could take to break that pattern?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I guess I just need to try to talk to him more about how I'm feeling."
+      },
+      {
+        "role": "assistant",
+        "content": "You're thinking about reaching out to him and talking more about your feelings. That's a great idea. Just taking that one small step can be really powerful."
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

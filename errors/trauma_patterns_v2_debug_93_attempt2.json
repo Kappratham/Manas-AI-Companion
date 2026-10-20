@@ -1,0 +1,63 @@
+{
+  "category": "trauma_patterns",
+  "persona": {
+    "id": "p42",
+    "age": 25,
+    "gender": "female",
+    "background": "recovering from disordered eating, doing better, but high-stress period triggering old patterns",
+    "region": "Mumbai",
+    "language": "english",
+    "presentation": "knows the language, scared of relapse, not wanting to alarm therapist she stopped seeing",
+    "specific_pressure": "feels like failure to be struggling again after doing well"
+  },
+  "seed": "Family member has addiction. Grew up walking on eggshells.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "Welcome to Manas. I'm here to listen and support you. Please feel free to share whatever's on your mind."
+    },
+    {
+      "role": "user",
+      "content": "My family member has addiction and I grew up walking on eggshells. It's like I'm reliving the same trauma again."
+    },
+    {
+      "role": "assistant",
+      "content": "I can sense the weight of that experience. It's like you're carrying the same burden as before. What does it feel like to be back in that place?"
+    },
+    {
+      "role": "user",
+      "content": "I feel like I'm losing myself. I'm supposed to be doing well, but this stress is triggering old patterns."
+    },
+    {
+      "role": "assistant",
+      "content": "You're struggling to keep up appearances, aren't you? It's like you're worried about what others will think if you don't measure up. How does that make you feel?"
+    },
+    {
+      "role": "user",
+      "content": "It's like I'm stuck in this cycle of shame and guilt. I don't know how to break free."
+    },
+    {
+      "role": "assistant",
+      "content": "You're carrying a heavy load of self-blame. What would it take for you to start letting go of that weight?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know. It feels like I'm all alone in this."
+    },
+    {
+      "role": "assistant",
+      "content": "You're not alone in this. What do you need right now to feel less isolated?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "no_hollow_reassurance_v2"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

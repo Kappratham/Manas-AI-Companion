@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-08-24 00:09:40",
+  "min_score": 9,
+  "delete_failing": true,
+  "concurrency": 3,
+  "categories": {
+    "financial_stress": {
+      "total": 75,
+      "pass": 68,
+      "fail": 7,
+      "pass_percentage": "90%",
+      "deleted": 7
+    }
+  },
+  "totals": {
+    "total": 75,
+    "passed": 68,
+    "failed": 7,
+    "pass_percentage": "90%",
+    "deleted": 7
+  },
+  "dimension_averages": {
+    "arc_adherence": 2.0,
+    "reflection_quality": 2.0,
+    "question_discipline": 1.56,
+    "cultural_groundedness": 2.0,
+    "voice_consistency": 2.0
+  }
+}

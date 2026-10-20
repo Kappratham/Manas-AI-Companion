@@ -1,0 +1,71 @@
+{
+  "category": "grief_loss",
+  "persona": {
+    "id": "p61",
+    "age": 22,
+    "gender": "female",
+    "background": "medical student, comes in to talk about study techniques, actual issue is that she is not sure she wants to be a doctor and is terrified of that thought",
+    "region": "Pune",
+    "language": "english",
+    "presentation": "studious, precise, presents problem as logistical, emotion emerges only when directly reflected",
+    "specific_pressure": "6 years and family money invested, the doubt feels like betrayal"
+  },
+  "seed": "Lost a pregnancy. Partner doesn't know how to talk about it. Pretending to be okay.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "Welcome to Manas. I'm here to listen and help you explore your thoughts and feelings. Please start by sharing what's been on your mind lately."
+    },
+    {
+      "role": "user",
+      "content": "I... I just had a miscarriage. And my partner doesn't know how to talk about it. So I'm just pretending to be okay."
+    },
+    {
+      "role": "assistant",
+      "content": "A miscarriage is a significant loss. It's okay that you're not feeling okay right now. Can you tell me a little bit more about what's been going through your mind since it happened?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know... it just feels like everything is fine, and I shouldn't be upset about it. But at the same time, I feel really empty inside."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're feeling a bit torn between wanting to be strong for your partner and your own emotions. What do you think it would take for you to feel like you can be honest with your partner about how you're really feeling?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know... I guess I just feel like I need to be okay for everyone else. Like, my family will be disappointed if I'm not okay."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're shouldering a lot of responsibility for others' expectations. Can you tell me more about what that feels like for you?"
+    },
+    {
+      "role": "user",
+      "content": "It feels like... I don't know, like I'm being suffocated or something. I just want to be left alone to deal with this on my own."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're feeling overwhelmed and trapped. What do you think would be one small step you could take to start taking care of yourself right now?"
+    },
+    {
+      "role": "user",
+      "content": "I... I don't know. I just feel so lost."
+    },
+    {
+      "role": "assistant",
+      "content": "You're feeling lost. That makes sense. Can you tell me what it feels like to say that out loud?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "no_hollow_reassurance"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

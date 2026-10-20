@@ -1,0 +1,87 @@
+{
+  "conversations": {
+    "category": "identity_confusion",
+    "persona": {
+      "id": "p65",
+      "age": 27,
+      "gender": "male",
+      "background": "has been told he is sensitive his whole life, learned to perform toughness, now cannot tell real feelings from performed ones",
+      "region": "Chandigarh",
+      "language": "english",
+      "presentation": "even-keeled, considered, underneath genuinely uncertain about his own emotional reality",
+      "specific_pressure": "so many years of suppression he cannot locate himself emotionally"
+    },
+    "seed": "I keep changing my style, my hobbies, even the way I talk, trying to find a version of me that fits. Nothing sticks for more than a month.",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "I keep changing my style, my hobbies, even the way I talk, trying to find a version of me that fits. Nothing sticks for more than a month."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a lot of uncertainty. What's one thing you've tried recently that hasn't stuck?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, everything feels like a performance. I'm just pretending to be someone else all the time."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you're just pretending. That's a heavy feeling. What do you think would happen if you stopped pretending for a little while?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, I guess I'd just feel like a failure or something."
+      },
+      {
+        "role": "assistant",
+        "content": "You think you'd feel like a failure. That's a tough fear. Have you ever felt like a failure when you were being genuinely yourself?"
+      },
+      {
+        "role": "user",
+        "content": "No, never. I just feel like I'm being a phony all the time."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like a phony. That's a confusing feeling. What do you think you'd need to feel like you could be yourself without pretending?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, I guess just to be left alone or something."
+      },
+      {
+        "role": "assistant",
+        "content": "You just want to be left alone. That sounds like a desperate desire. Can you think of one small thing you could do today that would make you feel like you're being left alone?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, I guess just to go for a walk or something."
+      },
+      {
+        "role": "assistant",
+        "content": "Going for a walk sounds like a simple, small step. See if you can take that walk today and just be present in your own body for a little while."
+      },
+      {
+        "role": "user",
+        "content": "Okay, I think I can do that."
+      },
+      {
+        "role": "assistant",
+        "content": "That makes sense. You don't have to have everything figured out right now. Just take that walk and see where it leads you."
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "system_prompt_present",
+      "turns_range",
+      "response_length"
+    ],
+    "pass_count": 18,
+    "fail_count": 3,
+    "version": "v2"
+  }
+}

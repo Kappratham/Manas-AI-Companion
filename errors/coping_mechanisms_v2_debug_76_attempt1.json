@@ -1,0 +1,39 @@
+{
+  "category": "coping_mechanisms",
+  "persona": {
+    "id": "p13",
+    "age": 36,
+    "gender": "male",
+    "background": "journalist, covered trauma and violence for years, now struggling to write anything, drinks more than before",
+    "region": "Mumbai",
+    "language": "english",
+    "presentation": "self-aware, intellectualizing, aware of secondary trauma but not addressing it",
+    "specific_pressure": "profession rewards emotional toughness, admitting struggle feels unprofessional"
+  },
+  "seed": "I've been running longer distances every week. My body is tired but stopping means sitting with myself.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I've been running longer distances every week. My body is tired but stopping means sitting with myself."
+    },
+    {
+      "role": "assistant",
+      "content": "Running longer distances, that's a big accomplishment. What's been the most challenging part for you, physically or mentally?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

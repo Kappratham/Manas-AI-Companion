@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "ai-video-generation": {
+      "source": "101-skills/superpowers",
+      "sourceType": "github",
+      "skillPath": "tools/video/ai-video-generation/SKILL.md",
+      "computedHash": "a2d7f92bb0fc3670a531576ce6e4ae0b7ed842cdeebec354a5bebe4c97821e39"
+    },
+    "instagram-agent-teneo": {
+      "source": "teneoprotocolai/teneo-skills",
+      "sourceType": "github",
+      "skillPath": "skills/agents/teneo-agent-instagram-agent/SKILL.md",
+      "computedHash": "57e99295bc23470fa44d4ab11ce76202168b6ebb23a7259617c5a51c988e1a2a"
+    },
+    "instagram-content-generation": {
+      "source": "eachlabs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/instagram-content-generation/SKILL.md",
+      "computedHash": "16b8fb488d1bba01e86604ba9e7c2d78257be03473b46fd723d138b48be8c632"
+    },
+    "instagram-marketing": {
+      "source": "sergebulaev/instagram-skills",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "5f1c263b94857527776de6fdf7e8f9443c9db29882287a7721a1431f7e92402e"
+    }
+  }
+}

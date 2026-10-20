@@ -1,0 +1,79 @@
+{
+  "conversations": {
+    "category": "identity_confusion",
+    "persona": {
+      "id": "p34",
+      "age": 44,
+      "gender": "female",
+      "background": "chronic pain condition, dismissed by doctors for years, now distrusts medical system and her own perception of pain",
+      "region": "Kolkata",
+      "language": "english",
+      "presentation": "frustrated, has been told it is in her head so many times she half believes it",
+      "specific_pressure": "gaslighted by medical system, now gaslights herself"
+    },
+    "seed": "I spent my whole life being the 'good, smart kid' to make my family happy. Now that I'm on my own, I have no idea what I actually like.",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "I spent my whole life being the 'good, smart kid' to make my family happy. Now that I'm on my own, I have no idea what I actually like."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a lot of pressure. What do you think it was like, being the 'good, smart kid'?"
+      },
+      {
+        "role": "user",
+        "content": "It was hard to disappoint my parents, I guess. They always said I was smart, but now I'm not sure if I really am."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like there was a lot of expectation on your shoulders. What does it feel like to question your own intelligence now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, it just feels like I'm lost. I don't know what I'm good at or what I want to do."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're feeling a bit stuck. Have you ever thought about what you enjoyed doing when you were younger, before all the pressure started?"
+      },
+      {
+        "role": "user",
+        "content": "I don't remember. I was too busy trying to please everyone else."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you suppressed a lot of your own desires and interests to fit in. What do you think would happen if you started exploring those interests now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. I'm scared of failing again."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like fear is holding you back. What do you think would be one small step you could take to start exploring your own interests again?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I guess I just need to figure it out for myself."
+      },
+      {
+        "role": "assistant",
+        "content": "That makes sense. You've been carrying this confusion for a long time. What does it feel like to acknowledge that you don't have to have all the answers right now?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "system_prompt_present",
+      "turns_range",
+      "response_length"
+    ],
+    "pass_count": 18,
+    "fail_count": 3,
+    "version": "v2"
+  }
+}

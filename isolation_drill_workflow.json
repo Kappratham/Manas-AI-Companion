@@ -1,0 +1,150 @@
+{
+    "last_node_id": 7,
+    "last_link_id": 7,
+    "nodes": [
+      {
+        "id": 1,
+        "type": "CheckpointLoaderSimple",
+        "pos": [100, 100],
+        "size": {"0": 240, "1": 80},
+        "flags": {},
+        "order": 0,
+        "mode": 0,
+        "inputs": {},
+        "outputs": [
+          {"name": "MODEL", "type": "MODEL", "slot_index": 0},
+          {"name": "CLIP", "type": "CLIP", "slot_index": 1},
+          {"name": "VAE", "type": "VAE", "slot_index": 2}
+        ],
+        "properties": {
+          "ckpt_name": "T2V-01_fp16.safetensors",
+          "output_vae": true,
+          "output_clip": true
+        }
+      },
+      {
+        "id": 2,
+        "type": "CLIPTextEncode",
+        "pos": [400, 100],
+        "size": {"0": 240, "1": 80},
+        "flags": {},
+        "order": 1,
+        "mode": 0,
+        "inputs": {
+          "clip": [1, 1],
+          "text": "A focused dance athlete in neutral gray practice wear (fitted top + joggers) performing a sharp hip-hop isolation sequence against a seamless dark gray studio backdrop. Soft, even key lighting from 45-degree left (no harsh shadows), slight fill from right.\n\n[0:00-0:05]\n- Chest isolation: Sharp, repeated pops (inhale/exhale-driven), shoulders locked, pelvis stable.\n- Camera: Steady medium shot (knees to top of head), slightly low angle to emphasize torso movement.\n\n[0:05-0:10]\n- Shoulder isolation: Alternating forward rolls (scapular glide), spine vertical, hips square.\n- Camera: Slow push-in to medium-close up (waist to shoulders) to highlight scapular movement.\n\n[0:10-0:15]\n- Waist isolation: Controlled lateral slides (left/right), ribcage isolated, pelvis & shoulders stable.\n- Camera: Static wide shot (full body) to show clean lateral line — no shoulder/hip drift.\n\n[0:15-0:20]\n- Combo phrase: Chest pop (2x) -> shoulder roll (left/right) -> waist slide (left/right) -> sharp head isolations (left/right/x2), all in 8-count rhythm.\n- Camera: Steady medium shot, slight upward tilt to engage eye line with movement.\n- Final frame: Dancer holds neutral pose, breath visible, confident but not performative.\n\nTechnical notes:\n- Movement quality: Sharp initiations, clean stops, zero excess motion (precision > speed).\n- Attire: Non-distracting, fitted to show joint alignment (no logos/text).\n- Lighting: Even, shadow-minimized to highlight muscle engagement.\n- Style: Documentary/raw — no filters, no slow-mo (preserves temporal accuracy for technique viewing).\n\nDuration: 20.0 seconds, Width: 576, Height: 1024, FPS: 24, Seed: 42, Guidance Scale: 7.5"
+        }
+      },
+      {
+        "id": 3,
+        "type": "CLIPTextEncode",
+        "pos": [400, 200],
+        "size": {"0": 240, "1": 80},
+        "flags": {},
+        "order": 2,
+        "mode": 0,
+        "inputs": {
+          "clip": [1, 1],
+          "text": "bad anatomy, lowres, jpeg artifacts, text, watermark, logo, signature, cropped, out of frame, worst quality, low quality, morbid, mutilated, out of frame"
+        }
+      },
+      {
+        "id": 4,
+        "type": "EmptyLatentImage",
+        "pos": [700, 150],
+        "size": {"0": 240, "1": 80},
+        "flags": {},
+        "order": 3,
+        "mode": 0,
+        "inputs": {},
+        "outputs": [
+          {"name": "LATENT", "type": "LATENT", "slot_index": 0}
+        ],
+        "properties": {
+          "width": 576,
+          "height": 1024,
+          "batch_size": 1,
+          "length": 480
+        }
+      },
+      {
+        "id": 5,
+        "type": "KSampler",
+        "pos": [1000, 150],
+        "size": {"0": 240, "1": 80},
+        "flags": {},
+        "order": 4,
+        "mode": 0,
+        "inputs": {
+          "model": [1, 0],
+          "positive": [2, 0],
+          "negative": [3, 0],
+          "latent_image": [4, 0],
+          "seed": 42,
+          "steps": 25,
+          "cfg": 7.5,
+          "sampler_name": "dpmpp_2m",
+          "scheduler": "karras",
+          "denoise": 1.0
+        },
+        "outputs": [
+          {"name": "OUTPUT", "type": "LATENT", "slot_index": 0}
+        ]
+      },
+      {
+        "id": 6,
+        "type": "VAEDecode",
+        "pos": [1300, 150],
+        "size": {"0": 240, "1": 80},
+        "flags": {},
+        "order": 5,
+        "mode": 0,
+        "inputs": {
+          "samples": [5, 0],
+          "vae": [1, 2]
+        },
+        "outputs": [
+          {"name": "IMAGE", "type": "IMAGE", "slot_index": 0}
+        ]
+      },
+      {
+        "id": 7,
+        "type": "SaveImage",
+        "pos": [1600, 150],
+        "size": {"0": 240, "1": 80},
+        "flags": {},
+        "order": 6,
+        "mode": 0,
+        "inputs": {
+          "images": [6, 0]
+        },
+        "properties": {
+          "filename_prefix": "isolation_drill"
+        }
+      }
+    ],
+    "links": [
+      [0, 1, 1, 2, 0],
+      [0, 2, 2, 1, 0],
+      [0, 3, 3, 1, 0],
+      [0, 4, 4, 1, 0],
+      [0, 5, 5, 0, 0],
+      [0, 5, 5, 1, 1],
+      [0, 5, 5, 2, 2],
+      [0, 5, 5, 3, 3],
+      [0, 6, 6, 0, 5],
+      [0, 6, 6, 1, 1],
+      [0, 7, 7, 0, 6]
+    ],
+    "groups": [],
+    "configs": {},
+    "extra": {
+      "pg_true": true,
+      "canvas_size": [2000, 1000],
+      "canvas_color": "#333333",
+      "grid_size": 20,
+      "grid_color": "#cccccc"
+    },
+    
+    "version": 0.4
+  }

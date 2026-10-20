@@ -1,0 +1,79 @@
+{
+  "category": "burnout_motivation",
+  "persona": {
+    "id": "p30",
+    "age": 31,
+    "gender": "male",
+    "background": "deeply religious, experiencing same-sex attraction, sees it as spiritual failure, no one to talk to",
+    "region": "Kerala",
+    "language": "english",
+    "presentation": "guilt, shame, framing everything in religious language",
+    "specific_pressure": "faith community is his entire social world, truth would destroy it"
+  },
+  "seed": "I used to have hobbies. Now I just scroll through my phone when I'm not working.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "I'm here to listen, p30. Can you start by telling me more about what's been going on?"
+    },
+    {
+      "role": "user",
+      "content": "I used to have hobbies. Now I just scroll through my phone when I'm not working."
+    },
+    {
+      "role": "assistant",
+      "content": "Hobbies? What did you enjoy doing before? Was there something in particular that you miss about those activities?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know. I just feel like I've lost all interest in everything. Even reading and music, which I used to love, feel like a chore now."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're feeling disconnected from things that used to bring you joy. Can you tell me more about what's changed for you? Is there something specific that's causing this feeling of disconnection?"
+    },
+    {
+      "role": "user",
+      "content": "It's just... I feel like I'm failing. I feel like I'm not living up to what I'm supposed to be. My parents would be so disappointed in me if they knew how I'm living now."
+    },
+    {
+      "role": "assistant",
+      "content": "Failing? What do you mean by that? Is it related to your faith community? You feel like you're not meeting their expectations?"
+    },
+    {
+      "role": "user",
+      "content": "Yes. I feel like I'm pretending to be someone I'm not. I'm pretending to be straight, and it's just eating away at me. I feel like I'm living a lie."
+    },
+    {
+      "role": "assistant",
+      "content": "I hear that you're feeling trapped and that you're struggling with your faith community's expectations. What do you think would happen if you were honest about who you are?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know. I've never even talked about this with anyone. I'm scared of what might happen if I'm honest. I don't want to hurt anyone or be rejected by my family and community."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're carrying a heavy burden. Can you take a small step towards being honest with someone about who you are? Just one person, if you can manage it. What do you think might help you feel more connected to who you are?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know. I feel so alone."
+    },
+    {
+      "role": "assistant",
+      "content": "You don't have to do this alone, p30. I'm here with you, and I want to help you find some connection to your true self. What do you need right now, even if it's just to sit in silence for a bit?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "single_question_per_turn"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

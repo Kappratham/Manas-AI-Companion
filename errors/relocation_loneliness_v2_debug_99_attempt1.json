@@ -1,0 +1,39 @@
+{
+  "category": "relocation_loneliness",
+  "persona": {
+    "id": "p43",
+    "age": 22,
+    "gender": "female",
+    "background": "raised in devout family, losing faith quietly, terrified of what that means for family relationships",
+    "region": "Varanasi",
+    "language": "english",
+    "presentation": "grief about losing faith framed as intellectual questioning, emotion underneath",
+    "specific_pressure": "faith is the language of her entire family, losing it feels like losing them"
+  },
+  "seed": "I went home for a week and came back feeling worse. Being reminded of what I'm missing made it harder to come back.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I went home for a week and came back feeling worse. Being reminded of what I'm missing made it harder to come back."
+    },
+    {
+      "role": "assistant",
+      "content": "You've been carrying this feeling of disconnection for a while now. Can you tell me more about what's been missing for you?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

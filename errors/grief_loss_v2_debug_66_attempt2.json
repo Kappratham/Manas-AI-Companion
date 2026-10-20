@@ -1,0 +1,80 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p32",
+      "age": 37,
+      "gender": "female",
+      "background": "caretaker of mother with dementia for 3 years, own life on hold, exhausted, occasional resentment she feels guilty about",
+      "region": "Chennai",
+      "language": "english",
+      "presentation": "guilt about resentment, cannot name it without self-punishment",
+      "specific_pressure": "culturally this is her duty as daughter, no room to say it is destroying her"
+    },
+    "seed": "Lost my savings in a scam. Grieving the financial security I thought I had.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Lost my savings in a scam. Grieving the financial security I thought I had."
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry to hear that. What's going through your mind right now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. It's just a lot to deal with. I've been trying to stay positive."
+      },
+      {
+        "role": "assistant",
+        "content": "You're trying to stay positive. That's good. What's making it hard to stay positive right now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. It's just a lot of pressure. My family is depending on me."
+      },
+      {
+        "role": "assistant",
+        "content": "Your family is depending on you. That must be a heavy burden to carry. Are you feeling like you're carrying it alone?"
+      },
+      {
+        "role": "user",
+        "content": "I guess so. I don't know how to talk about this with them."
+      },
+      {
+        "role": "assistant",
+        "content": "It's hard to know how to talk about it. What do you think would happen if you did talk about it?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. I guess I'd feel like I'm being weak or something."
+      },
+      {
+        "role": "assistant",
+        "content": "You're worried about being seen as weak. That's a hard feeling to navigate. What do you think would be one small thing that you could do to take care of yourself right now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know... just take a walk, maybe?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking a walk sounds like a good idea. Sometimes just getting outside and moving can help clear your head. Would you like to try that today?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

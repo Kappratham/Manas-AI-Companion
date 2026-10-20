@@ -1,0 +1,71 @@
+{
+  "category": "relocation_loneliness",
+  "persona": {
+    "id": "p65",
+    "age": 27,
+    "gender": "male",
+    "background": "has been told he is sensitive his whole life, learned to perform toughness, now cannot tell real feelings from performed ones",
+    "region": "Chandigarh",
+    "language": "english",
+    "presentation": "even-keeled, considered, underneath genuinely uncertain about his own emotional reality",
+    "specific_pressure": "so many years of suppression he cannot locate himself emotionally"
+  },
+  "seed": "I have 600 Instagram followers and nobody to eat dinner with.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I have 600 Instagram followers and nobody to eat dinner with."
+    },
+    {
+      "role": "assistant",
+      "content": "I hear that you have a big online presence but feel isolated. That can be a tough spot to be in."
+    },
+    {
+      "role": "user",
+      "content": "Yeah, I guess I was hoping people would notice me more offline. But they don't. It's like, I'm fine on social media, but nobody wants to hang out."
+    },
+    {
+      "role": "assistant",
+      "content": "So, it's like there's a disconnect between your online and offline life. You feel like you're putting on a show online, but nobody's interested in being friends in real life. Is that a fair way to put it?"
+    },
+    {
+      "role": "user",
+      "content": "I guess so. It's just...I don't know, it feels like I'm just pretending to be happy all the time, you know?"
+    },
+    {
+      "role": "assistant",
+      "content": "You feel like you're living a performance, rather than a genuine life. That can be really draining. Have you ever felt like you're just going through the motions, without any sense of purpose or direction?"
+    },
+    {
+      "role": "user",
+      "content": "Honestly, yeah. I feel like I'm just trying to adjust to this new city, but it's hard to adjust when nobody seems to care."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're really struggling with feelings of loneliness and disconnection. That can be a really tough thing to deal with, especially when you're trying to start fresh in a new place. Can you tell me more about what it's like to feel like nobody cares about you?"
+    },
+    {
+      "role": "user",
+      "content": "It's just...I don't know, it feels like I'm invisible or something."
+    },
+    {
+      "role": "assistant",
+      "content": "That must be really painful. Sometimes, when we feel invisible, it's like we're stuck in a fog that we can't shake off. What do you think would help you feel more seen and heard in this new city?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "no_diagnosis"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

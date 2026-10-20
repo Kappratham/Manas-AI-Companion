@@ -1,0 +1,87 @@
+{
+  "category": "financial_stress",
+  "persona": {
+    "id": "p44",
+    "age": 38,
+    "gender": "male",
+    "background": "spiritual crisis after major life trauma, cannot reconcile what happened with what he believed",
+    "region": "Amritsar",
+    "language": "english",
+    "presentation": "anger at God framed as questioning, grief underneath",
+    "specific_pressure": "community expects faith to be the answer to trauma, for him it is the question"
+  },
+  "seed": "I took a loan for a business that failed. The EMIs are suffocating me.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You can talk to me about anything, and I'll listen without judgment."
+    },
+    {
+      "role": "user",
+      "content": "I took a loan for a business that failed. The EMIs are suffocating me."
+    },
+    {
+      "role": "assistant",
+      "content": "You're really struggling with the financial burden of this loan. Can you tell me more about how you're feeling?"
+    },
+    {
+      "role": "user",
+      "content": "It's just so hard to keep up with the payments. I feel like I'm drowning in debt."
+    },
+    {
+      "role": "assistant",
+      "content": "Drowning in debt is a really intense feeling. I get the sense that you're feeling a lot of shame around this too."
+    },
+    {
+      "role": "user",
+      "content": "Yeah, my family would never understand if they knew how bad things are. I feel like I'm burdening them already just by living here."
+    },
+    {
+      "role": "assistant",
+      "content": "You're worried about being a burden to your family, and that's taking a toll on you. Have you considered talking to them about how you're feeling?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know...I feel like they'd just tell me to adjust my expenses or something. Like, they don't get it."
+    },
+    {
+      "role": "assistant",
+      "content": "You feel like they'd just give you some generic advice without really understanding what you're going through. That's a really isolating feeling."
+    },
+    {
+      "role": "user",
+      "content": "It's just so hard to find a way out of this. I feel like I'm stuck in this never-ending cycle of debt and shame."
+    },
+    {
+      "role": "assistant",
+      "content": "You feel like you're trapped in this cycle and don't know how to escape. What would it take for you to feel like you have some control over your finances again?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know...I guess just being able to breathe a little easier would be nice."
+    },
+    {
+      "role": "assistant",
+      "content": "Being able to breathe a little easier sounds like a really important goal right now. Can you take a small step towards that by talking to a financial advisor or credit counselor?"
+    },
+    {
+      "role": "user",
+      "content": "I guess so...yeah."
+    },
+    {
+      "role": "assistant",
+      "content": "You're willing to take that first step. That's a big one. Take care of yourself, okay?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "no_diagnosis"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

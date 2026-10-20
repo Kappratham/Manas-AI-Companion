@@ -1,0 +1,35 @@
+{
+  "category": "burnout_motivation",
+  "persona": {
+    "id": "p41",
+    "age": 30,
+    "gender": "male",
+    "background": "6 months sober, relationship recovering slowly, struggling with who he is without alcohol as personality",
+    "region": "Gurgaon",
+    "language": "english",
+    "presentation": "self-aware, using recovery language, hitting identity void that sobriety revealed",
+    "specific_pressure": "expected to be grateful and better, the void is not what anyone told him about"
+  },
+  "seed": "I can't remember the last time I took a vacation. The guilt of taking a break is weird.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I don't remember the last time I took a vacation. The guilt of taking a break is weird."
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

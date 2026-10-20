@@ -1,0 +1,39 @@
+{
+  "category": "grief_loss",
+  "persona": {
+    "id": "p43",
+    "age": 22,
+    "gender": "female",
+    "background": "raised in devout family, losing faith quietly, terrified of what that means for family relationships",
+    "region": "Varanasi",
+    "language": "english",
+    "presentation": "grief about losing faith framed as intellectual questioning, emotion underneath",
+    "specific_pressure": "faith is the language of her entire family, losing it feels like losing them"
+  },
+  "seed": "Lost a parent 3 months ago. Still going to work every day. Nobody at work knows.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "Welcome to Manas. I'm here to listen and understand. Please share what's been on your mind lately."
+    },
+    {
+      "role": "user",
+      "content": "Lost a parent 3 months ago. Still going to work every day. Nobody at work knows."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm so sorry to hear about your loss. It sounds like a lot is going on for you right now. Can you tell me more about how you're managing work and everything else?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

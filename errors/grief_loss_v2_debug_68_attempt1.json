@@ -1,0 +1,56 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p27",
+      "age": 25,
+      "gender": "male",
+      "background": "drinks every evening to wind down, tells himself it is social, alone most evenings",
+      "region": "Mumbai",
+      "language": "english",
+      "presentation": "aware it is more than social, not ready to name it, came to talk about stress not drinking",
+      "specific_pressure": "family has history of alcoholism he does not want to repeat but is not examining"
+    },
+    "seed": "My father died six weeks ago. I coordinated the entire funeral. I haven't cried yet. I don't know what that means.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "My father died six weeks ago. I coordinated the entire funeral. I haven't cried yet. I don't know what that means."
+      },
+      {
+        "role": "assistant",
+        "content": "You've been through a lot. It's okay to not know what to feel right now."
+      },
+      {
+        "role": "user",
+        "content": "I guess I'm just trying to be strong for everyone else. They're all counting on me."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're carrying a heavy load. How do you think they would feel if you weren't so strong?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. I just feel like I have to be there for them. We're a big family, and everyone depends on me."
+      },
+      {
+        "role": "assistant",
+        "content": "You're shouldering a lot of responsibility. Have you ever felt like you're just pretending to be okay when you're not?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "conversations": {
+    "category": "identity_confusion",
+    "persona": {
+      "id": "p60",
+      "age": 29,
+      "gender": "male",
+      "background": "HR professional",
+      "region": "Bangalore",
+      "language": "english",
+      "presentation": "professional framing of everything",
+      "specific_pressure": "can coach others through conflict, completely avoids it at home"
+    },
+    "seed": "Everyone my age seems to have something they care about deeply. I look for that in myself and I find nothing. Not sadness. Just nothing.",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "Everyone my age seems to have something they care about deeply. I look for that in myself and I find nothing. Not sadness. Just nothing."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like there's a void inside you, like you're not connected to anything you care about. That's a tough thing to admit."
+      },
+      {
+        "role": "user",
+        "content": "I just feel like I'm pretending to have opinions and interests. Like I'm faking it to fit in."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you're putting on a mask, like you're being someone else to impress others. That's a heavy feeling."
+      },
+      {
+        "role": "user",
+        "content": "I don't know, I just feel empty. Like I'm just going through the motions."
+      },
+      {
+        "role": "assistant",
+        "content": "You're describing a sense of numbness, like you're not feeling anything deeply. Have you always been like this?"
+      },
+      {
+        "role": "user",
+        "content": "No, I think it's just gotten worse over time."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you're losing yourself, like you're not sure who you are anymore. What's one small thing you'd like to try to get in touch with yourself again?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know..."
+      },
+      {
+        "role": "assistant",
+        "content": "It's okay, we don't need to figure it out tonight. Just sitting with this feeling of emptiness is enough for now."
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "system_prompt_present",
+      "turns_range",
+      "response_length"
+    ],
+    "pass_count": 18,
+    "fail_count": 3,
+    "version": "v2"
+  }
+}

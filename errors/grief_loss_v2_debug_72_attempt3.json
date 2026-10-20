@@ -1,0 +1,68 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p04",
+      "age": 29,
+      "gender": "female",
+      "background": "product manager at startup, high performer, team depends on her, own needs last",
+      "region": "Delhi",
+      "language": "english",
+      "presentation": "stoic, minimizing, occasional dark humor",
+      "specific_pressure": "cannot afford to break down, too many people need her to be okay"
+    },
+    "seed": "Lost my job during the pandemic. Grieving the career I built for years.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "That must be really tough. How are you feeling about your job loss?"
+      },
+      {
+        "role": "user",
+        "content": "I'm fine. I'll just find another job. It's not a big deal."
+      },
+      {
+        "role": "assistant",
+        "content": "You sound like you're trying to minimize the impact. What's behind that? Is it about not wanting to burden others or about something else?"
+      },
+      {
+        "role": "user",
+        "content": "It's just that I have a lot on my plate. I have a family to support, and I don't want to be a burden. Besides, what's the point of getting emotional about it?"
+      },
+      {
+        "role": "assistant",
+        "content": "I hear that you're taking care of others and trying to stay strong. But what's the point of not getting emotional about it? Is it like you're putting on a mask or something?"
+      },
+      {
+        "role": "user",
+        "content": "I guess I just don't want to show weakness. I don't want to be seen as vulnerable."
+      },
+      {
+        "role": "assistant",
+        "content": "You're worried about how others will see you. That must be really hard. What would it take for you to feel like you can be vulnerable and show your true feelings?"
+      },
+      {
+        "role": "assistant",
+        "content": "I think it's really brave of you to acknowledge that you're carrying a lot of pressure. What would be one small thing you could do to take care of yourself right now?"
+      },
+      {
+        "role": "assistant",
+        "content": "That makes sense. You've been carrying this weight for a while now. What does it feel like to say that out loud?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

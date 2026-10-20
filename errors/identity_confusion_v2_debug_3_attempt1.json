@@ -1,0 +1,80 @@
+{
+  "conversations": {
+    "category": "identity_confusion",
+    "persona": {
+      "id": "p34",
+      "age": 44,
+      "gender": "female",
+      "background": "chronic pain condition, dismissed by doctors for years, now distrusts medical system and her own perception of pain",
+      "region": "Kolkata",
+      "language": "english",
+      "presentation": "frustrated, has been told it is in her head so many times she half believes it",
+      "specific_pressure": "gaslighted by medical system, now gaslights herself"
+    },
+    "seed": "I spent my whole life being the 'good, smart kid' to make my family happy. Now that I'm on my own, I have no idea what I actually like.",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "I spent my whole life being the 'good, smart kid' to make my family happy. Now that I'm on my own, I have no idea what I actually like."
+      },
+      {
+        "role": "assistant",
+        "content": "What does it feel like to be 'the good, smart kid' all the time?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, it just feels suffocating. Like I'm living someone else's dream, not mine."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you're living someone else's dream. Is that scary to admit?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, it's terrifying. Because what if that's all I'm capable of? What if I'm just not good enough?"
+      },
+      {
+        "role": "assistant",
+        "content": "You're worried that you're not good enough. What does that feel like in your body?"
+      },
+      {
+        "role": "user",
+        "content": "It feels like a weight is crushing me. I just want to be done with it all."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you want to be done with it all. Have you ever felt like that before, even when things were going well?"
+      },
+      {
+        "role": "user",
+        "content": "No, never. But now I'm starting to feel like I don't even know who I am."
+      },
+      {
+        "role": "assistant",
+        "content": "You're starting to feel like you don't even know who you are. What does that feel like, exactly?"
+      },
+      {
+        "role": "assistant",
+        "content": "You've been carrying the pressure to be 'the good, smart kid' for so long. What does it feel like to even consider letting that go?"
+      },
+      {
+        "role": "assistant",
+        "content": "That makes sense. What would feel like one small step — not a plan, just one thing — to start letting go of that expectation?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "system_prompt_present",
+      "alternating_turns",
+      "turns_range",
+      "response_length"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

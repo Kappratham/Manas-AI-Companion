@@ -1,0 +1,68 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p45",
+      "age": 26,
+      "gender": "female",
+      "background": "hearing impaired, exhausted by daily effort of navigating world not built for her, passing as hearing taking toll",
+      "region": "Bangalore",
+      "language": "english",
+      "presentation": "matter of fact, does not want pity, frustrated that she has to explain the exhaustion",
+      "specific_pressure": "people see the accommodation not the cost of providing it to herself daily"
+    },
+    "seed": "I'm the one people lean on during hard times. When she died I didn't know who I was allowed to call.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "What was it like not knowing who to call?"
+      },
+      {
+        "role": "user",
+        "content": "It was fine. I just dealt with it."
+      },
+      {
+        "role": "assistant",
+        "content": "Dealt with it... How did that feel?"
+      },
+      {
+        "role": "user",
+        "content": "It was just a thing to do. Not a big deal."
+      },
+      {
+        "role": "assistant",
+        "content": "You're not carrying it around, though... Is that true?"
+      },
+      {
+        "role": "user",
+        "content": "Of course not. I'm not stupid."
+      },
+      {
+        "role": "assistant",
+        "content": "No one said you were. What's it like to be around people who don't know what it's like to be you?"
+      },
+      {
+        "role": "user",
+        "content": "It's like... I don't know. It's just hard, I guess."
+      },
+      {
+        "role": "assistant",
+        "content": "Hard... What's one small thing you'd like to be able to do without feeling like you're drowning?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "category": "parental_expectations",
+  "persona": {
+    "id": "p37",
+    "age": 34,
+    "gender": "male",
+    "background": "Muslim professional, post-2020 feels increasingly unwelcome in own country, identity crisis layered on career stress",
+    "region": "UP, working in Mumbai",
+    "language": "english",
+    "presentation": "careful, politically aware, tests safety before speaking freely",
+    "specific_pressure": "political climate making existing stress heavier, no safe space to say this"
+  },
+  "seed": "My father has started forwarding me matrimonial profiles on WhatsApp without saying anything. Just forwarding them.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY:"
+    },
+    {
+      "role": "user",
+      "content": "My father has started forwarding me matrimonial profiles on WhatsApp without saying anything. Just forwarding them."
+    },
+    {
+      "role": "assistant",
+      "content": "That's quite some information to receive unexpectedly. Can you tell me more about how it makes you feel?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

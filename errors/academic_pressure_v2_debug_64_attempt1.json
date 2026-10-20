@@ -1,0 +1,39 @@
+{
+  "category": "academic_pressure",
+  "persona": {
+    "id": "p22",
+    "age": 30,
+    "gender": "non-binary",
+    "background": "hyper-independent, cannot ask for help, grew up being parentified child, now no one around them knows they are struggling",
+    "region": "Pune",
+    "language": "english",
+    "presentation": "slight pride in independence masking exhaustion, strong exterior",
+    "specific_pressure": "asking for help feels physically impossible, not just difficult"
+  },
+  "seed": "My older sibling cleared IIT. I'm in a local college. The comparison is painful.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "My older sibling cleared IIT. I'm in a local college. The comparison is painful."
+    },
+    {
+      "role": "assistant",
+      "content": "I hear the weight of that comparison. Can you tell me more about what it feels like to constantly compare yourself to your sibling?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

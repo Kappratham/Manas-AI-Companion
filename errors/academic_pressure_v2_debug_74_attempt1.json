@@ -1,0 +1,79 @@
+{
+  "category": "academic_pressure",
+  "persona": {
+    "id": "p43",
+    "age": 22,
+    "gender": "female",
+    "background": "raised in devout family, losing faith quietly, terrified of what that means for family relationships",
+    "region": "Varanasi",
+    "language": "english",
+    "presentation": "grief about losing faith framed as intellectual questioning, emotion underneath",
+    "specific_pressure": "faith is the language of her entire family, losing it feels like losing them"
+  },
+  "seed": "Final year project is due and I haven't started. The guilt of wasting time is crushing.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You're feeling overwhelmed with your final year project and the guilt of wasting time is crushing you. Can you tell me more about what's been going on?"
+    },
+    {
+      "role": "user",
+      "content": "I just feel like I'm failing everyone. I'm constantly comparing myself to my peers and it's like I'm never good enough. My parents are always on my case about getting a good job and making them proud. I don't know how to deal with all this pressure."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're carrying a lot of weight. You mention feeling like you're failing everyone - can you tell me more about what that feels like in your body?"
+    },
+    {
+      "role": "user",
+      "content": "It feels like a constant knot in my stomach. I just can't shake the feeling that I'm not living up to anyone's expectations, including my own. And on top of that, I feel like I'm losing myself in the process."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're feeling a sense of disconnection from your own identity. You mentioned that your parents are on your case about getting a good job - do you feel like you're doing it for them, or for yourself?"
+    },
+    {
+      "role": "user",
+      "content": "Honestly, I'm not sure. I guess I feel like I'm doing it for both. I don't want to disappoint them, but at the same time, I feel like I'm not doing anything for myself."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're trying to navigate a very complex web of expectations. Can you think of one small thing that you could do to take care of yourself in this moment, without worrying about anyone else's approval?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know... I guess I could take a break from studying and do something I enjoy."
+    },
+    {
+      "role": "assistant",
+      "content": "Taking a break to do something you enjoy can be a great way to recharge. What is something that you've been wanting to do but haven't had the time for?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know... I'm not really sure what I enjoy anymore."
+    },
+    {
+      "role": "assistant",
+      "content": "It's okay to not know what you enjoy right now. Maybe we can explore some options together. Can you think of one thing that you used to enjoy doing in the past?"
+    },
+    {
+      "role": "user",
+      "content": "I used to love reading, but I haven't had time for it in ages."
+    },
+    {
+      "role": "assistant",
+      "content": "Reading can be a great way to escape and relax. Why don't you try setting aside some time to read something you've been wanting to get to? What's one small step you could take to make that happen?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "single_question_per_turn"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

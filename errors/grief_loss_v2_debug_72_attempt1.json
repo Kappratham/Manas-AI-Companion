@@ -1,0 +1,60 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p04",
+      "age": 29,
+      "gender": "female",
+      "background": "product manager at startup, high performer, team depends on her, own needs last",
+      "region": "Delhi",
+      "language": "english",
+      "presentation": "stoic, minimizing, occasional dark humor",
+      "specific_pressure": "cannot afford to break down, too many people need her to be okay"
+    },
+    "seed": "Lost my job during the pandemic. Grieving the career I built for years.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "Job loss can be really tough, especially when it's tied to your identity as a professional. How are you coping with this change?"
+      },
+      {
+        "role": "user",
+        "content": "I'm fine. Just need to get back to work."
+      },
+      {
+        "role": "assistant",
+        "content": "I hear that you're trying to get back to work, but it sounds like there might be more to it than that. Can you tell me more about what's going on inside when you say 'I'm fine'?"
+      },
+      {
+        "role": "user",
+        "content": "Honestly, I just feel like I've failed. All my hard work, down the drain."
+      },
+      {
+        "role": "assistant",
+        "content": "The feeling of failure can be overwhelming. It sounds like you're carrying a lot of weight with this job loss. What's the first thing that comes to mind when you think about what you've lost?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. It's just... everything."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're struggling to put words to what you're feeling. Sometimes it's okay not to have answers. Can you tell me what it feels like to say 'I don't know' to yourself right now?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

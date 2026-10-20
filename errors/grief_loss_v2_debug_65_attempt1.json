@@ -1,0 +1,68 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p10",
+      "age": 34,
+      "gender": "female",
+      "background": "nurse, government hospital, 12 hour shifts, secondary trauma from patient deaths, no support system at work",
+      "region": "Kerala",
+      "language": "english",
+      "presentation": "clinically detached, uses medical language to describe own distress",
+      "specific_pressure": "healthcare workers not supposed to struggle, expected to cope professionally"
+    },
+    "seed": "We had a complicated relationship and now I can't grieve cleanly because it's all mixed up with things that never got resolved.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "It sounds like you're struggling to separate your emotions from the unresolved issues in your past relationship."
+      },
+      {
+        "role": "user",
+        "content": "I guess I just don't want to be stuck on it anymore. I feel like I'm still carrying it around."
+      },
+      {
+        "role": "assistant",
+        "content": "You're feeling like you're still carrying the weight of that relationship with you. Can you tell me more about what that's like for you?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. It's just hard to shake off. I keep thinking about what I could have done differently."
+      },
+      {
+        "role": "assistant",
+        "content": "You're replaying 'what ifs' in your head. What do you think is the hardest part of grieving for you right now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. It just feels like everything is so complicated."
+      },
+      {
+        "role": "assistant",
+        "content": "You're feeling overwhelmed by the complexity of your emotions. What do you think would be one small step for you to take towards untangling some of this?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. That's a good question."
+      },
+      {
+        "role": "assistant",
+        "content": "You're not sure what small step to take next. Can you trust me to just sit with that uncertainty with you for a bit?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

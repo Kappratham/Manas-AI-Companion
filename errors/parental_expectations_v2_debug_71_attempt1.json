@@ -1,0 +1,79 @@
+{
+  "category": "parental_expectations",
+  "persona": {
+    "id": "p15",
+    "age": 45,
+    "gender": "male",
+    "background": "mid-level bank manager, 20 years same job, son going to college, suddenly questioning everything",
+    "region": "Chennai",
+    "language": "english",
+    "presentation": "mid-life existential fog, practical man uncomfortable with abstract feelings",
+    "specific_pressure": "no language for what he is feeling, everyone around him thinks he is fine"
+  },
+  "seed": "My mother wants me to marry within caste. I'm dating someone she would never approve of.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: ..."
+    },
+    {
+      "role": "user",
+      "content": "My mother wants me to marry within caste. I'm dating someone she would never approve of."
+    },
+    {
+      "role": "assistant",
+      "content": "..."
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "..."
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "..."
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "..."
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "..."
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "..."
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "response_length"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

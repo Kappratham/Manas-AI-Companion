@@ -1,0 +1,12 @@
+# Auto-evaluation dependencies for Manas
+openai
+transformers>=4.40.0
+peft>=0.10.0
+bitsandbytes>=0.43.1
+accelerate>=0.28.0
+datasets
+huggingface_hub
+rich
+python-dotenv
+# torch  # Hash verification disabled for CUDA installation
+numpy

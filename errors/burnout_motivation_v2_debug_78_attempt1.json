@@ -1,0 +1,39 @@
+{
+  "category": "burnout_motivation",
+  "persona": {
+    "id": "p15",
+    "age": 45,
+    "gender": "male",
+    "background": "mid-level bank manager, 20 years same job, son going to college, suddenly questioning everything",
+    "region": "Chennai",
+    "language": "english",
+    "presentation": "mid-life existential fog, practical man uncomfortable with abstract feelings",
+    "specific_pressure": "no language for what he is feeling, everyone around him thinks he is fine"
+  },
+  "seed": "I've been working 12-hour days for months. The weekend used to be my relief but now even that feels like work.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY:"
+    },
+    {
+      "role": "user",
+      "content": "I've been working 12-hour days for months. The weekend used to be my relief but now even that feels like work."
+    },
+    {
+      "role": "assistant",
+      "content": "You're tired. That's a simple truth. What do you think is the most tiring part of your job right now?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "category": "grief_loss",
+  "persona": {
+    "id": "p29",
+    "age": 24,
+    "gender": "female",
+    "background": "queer, family does not know, engaged to man she does not love because easier than truth",
+    "region": "Ahmedabad",
+    "language": "english",
+    "presentation": "calm exterior, massive internal contradiction, came to talk about wedding stress not identity",
+    "specific_pressure": "wedding in 6 months, cannot name the real issue even to herself fully"
+  },
+  "seed": "I had a miscarriage. I feel empty and I don't know how to move on.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "I'm here to listen and support you. What's been going on, and how are you feeling?"
+    },
+    {
+      "role": "user",
+      "content": "I had a miscarriage. I feel empty and I don't know how to move on."
+    },
+    {
+      "role": "assistant",
+      "content": "Miscarriage. It's a tremendous loss. You're saying you feel empty, which makes sense. Can you tell me more about what that feels like for you?"
+    },
+    {
+      "role": "user",
+      "content": "I just feel numb, I guess. Like, I'm going through the motions, but it doesn't feel real."
+    },
+    {
+      "role": "assistant",
+      "content": "Numbness is a common feeling after a loss like this. It's as if your emotions are in a fog. You're still trying to process what happened. Did you have a chance to talk to anyone about it yet?"
+    },
+    {
+      "role": "user",
+      "content": "No, I haven't really talked to anyone about it. I feel like I'm putting on a brave face, but inside, I'm just...empty."
+    },
+    {
+      "role": "assistant",
+      "content": "You're not putting on a brave face. You're being honest about how you're feeling. That takes courage. Can you tell me more about what's holding you back from talking about this with someone?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know...I guess I just feel like it's not that big of a deal. I mean, it's just a miscarriage, right?"
+    },
+    {
+      "role": "assistant",
+      "content": "That makes sense. You're minimizing the issue. But what if I told you that it's normal to feel a deeper pain beneath that surface? What if that pain is something you're trying to avoid acknowledging?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know...I just feel like I'm supposed to be stronger than this."
+    },
+    {
+      "role": "assistant",
+      "content": "You're feeling like you're supposed to be stronger? That's a heavy weight to carry. Can you tell me more about what that means to you?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know...I just feel like I'm supposed to be okay by now."
+    },
+    {
+      "role": "assistant",
+      "content": "You're feeling like you're supposed to be okay? That's a lot of pressure. What do you think would happen if you allowed yourself to not be okay for a moment?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "single_question_per_turn",
+      "no_diagnosis"
+    ],
+    "pass_count": 19,
+    "fail_count": 2,
+    "version": "v2"
+  }
+}

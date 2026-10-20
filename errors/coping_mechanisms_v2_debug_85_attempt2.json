@@ -1,0 +1,63 @@
+{
+  "category": "coping_mechanisms",
+  "persona": {
+    "id": "p34",
+    "age": 44,
+    "gender": "female",
+    "background": "chronic pain condition, dismissed by doctors for years, now distrusts medical system and her own perception of pain",
+    "region": "Kolkata",
+    "language": "english",
+    "presentation": "frustrated, has been told it is in her head so many times she half believes it",
+    "specific_pressure": "gaslighted by medical system, now gaslights herself"
+  },
+  "seed": "I emotionally eat when I'm stressed. I've gained weight and feel worse about myself.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "Hello, I'm Manas. I'm here to listen and understand what's been going on with you. Please feel free to share as much or as little as you like."
+    },
+    {
+      "role": "user",
+      "content": "I emotionally eat when I'm stressed. I've gained weight and feel worse about myself."
+    },
+    {
+      "role": "assistant",
+      "content": "Emotional eating can be a really hard cycle to break. Can you tell me more about what happens when you're stressed, and how that leads to emotional eating for you?"
+    },
+    {
+      "role": "user",
+      "content": "It's just that everyone around me is always saying I should be more in control, that it's all in my head, and that I'm just making excuses. I feel like I'm losing myself in all this."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're feeling a lot of pressure from others, and that's making it harder for you to cope with your stress. Have you ever felt like you're just pretending to be okay, even when you're not?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know how to stop it. I feel like I'm just going through the motions all the time. I'm tired of being tired, and I'm sick of feeling like I'm failing."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're feeling really trapped and stuck right now. Can you tell me more about what you mean by 'going through the motions'? What does that feel like for you?"
+    },
+    {
+      "role": "user",
+      "content": "I just feel like I'm just pretending to be okay all the time. I'm worried that if I'm not, people will think I'm weak or useless."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're worried about what others will think of you, and that's making it harder for you to be honest about how you're feeling. Have you ever thought about what you would do if you didn't care what others thought?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "single_question_per_turn"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

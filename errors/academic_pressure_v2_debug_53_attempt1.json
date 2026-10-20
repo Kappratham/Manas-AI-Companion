@@ -1,0 +1,39 @@
+{
+  "category": "academic_pressure",
+  "persona": {
+    "id": "p19",
+    "age": 48,
+    "gender": "male",
+    "background": "lost younger brother suddenly, was the responsible one, now no one needs him the same way",
+    "region": "Kolkata",
+    "language": "english",
+    "presentation": "grief mixed with loss of identity as protector, philosophical but lost",
+    "specific_pressure": "men of his generation do not talk about grief, expected to hold the family together"
+  },
+  "seed": "I got selected for an exchange program but my CGPA is too low to actually go. I didn't tell anyone I applied.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I got selected for an exchange program but my CGPA is too low to actually go. I didn't tell anyone I applied."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a tough spot to be in. What's been going through your mind since you found out about the program?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

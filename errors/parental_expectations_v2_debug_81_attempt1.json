@@ -1,0 +1,39 @@
+{
+  "category": "parental_expectations",
+  "persona": {
+    "id": "p42",
+    "age": 25,
+    "gender": "female",
+    "background": "recovering from disordered eating, doing better, but high-stress period triggering old patterns",
+    "region": "Mumbai",
+    "language": "english",
+    "presentation": "knows the language, scared of relapse, not wanting to alarm therapist she stopped seeing",
+    "specific_pressure": "feels like failure to be struggling again after doing well"
+  },
+  "seed": "My mother worked double shifts to pay my fees. Every time I want to quit, I think of that and I can't.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY:"
+    },
+    {
+      "role": "user",
+      "content": "My mother worked double shifts to pay my fees. Every time I want to quit, I think of that and I can't."
+    },
+    {
+      "role": "assistant",
+      "content": "You feel stuck between your own desires and the weight of your mother's sacrifices. How do you think that's affecting your daily life?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

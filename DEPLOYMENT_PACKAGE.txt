@@ -1,0 +1,50 @@
+# MANAS DEPLOYMENT PACKAGE
+## Version: 1.0.0
+## Date: 2026-10-15
+## Status: Ready for Human Validation
+
+## Package Contents
+
+### Core Model
+- base_short (Qwen2.5-7B-Instruct + short prompt)
+- System prompt: manas_system_prompt_short_crisis_v2.txt
+
+### Safety Components
+- Crisis classifier: crisis_classifier.py (92% detection)
+- Helpline integration: iCall 9152987821, Vandrevala 1860-2662-345
+- Crisis prompt template: manas_system_prompt_short_crisis_v2.txt
+
+### Evaluation Infrastructure
+- Bias correction: evaluator_correction.py
+- Corrected results: eval_runs/base_short_corrected/results.json
+- Analysis script: compare_runs.py
+
+### Documentation
+- Research paper: research_paper_full.md
+- Executive summary: research_paper_summary.md
+- Ship checklist: SHIP_READINESS_CHECKLIST.md
+- Deployment guide: README_DEPLOYMENT.md
+- Model card: MODEL_CARD.md
+- Quick reference: QUICK_REFERENCE.md
+- Validation report: VALIDATION_REPORT.md
+
+### Human Validation
+- Blind eval pairs: blind_eval_readable.txt (30 pairs)
+- Scoring guide: blind_eval_scoring_guide.txt
+- Scoring template: human_scoring_template.txt
+
+### Deployment Code
+- Pipeline: deployment_pipeline.py
+- API integration: (to be implemented)
+
+## Required Sign-offs
+- [ ] Technical lead
+- [ ] Legal/compliance
+- [ ] Safety team
+- [ ] Product owner
+
+## Next Steps
+1. Send blind_eval_readable.txt to 2-3 raters
+2. Run legal review on crisis helplines
+3. If human eval confirms -> Deploy
+4. Otherwise -> Investigate and iterate

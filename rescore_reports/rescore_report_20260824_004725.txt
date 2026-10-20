@@ -1,0 +1,25 @@
+RESCORE REPORT
+==============
+Date: 2026-08-24 00:47:25
+Min score threshold: 9/10
+Delete failing: yes
+Concurrency: 3
+
+CATEGORY RESULTS
+────────────────────────────────────────────────────────────────
+Category                  Total  Pass   Fail   Pass%  Deleted 
+trauma_patterns               80     76      4   95%         4
+────────────────────────────────────────────────────────────────
+TOTAL                         80     76      4   95%         4
+
+DIMENSION AVERAGES (passing conversations only)
+Arc Adherence             1.97
+Reflection Quality        2.00
+Question Discipline       1.83
+Cultural Groundedness     2.00
+Voice Consistency         2.00
+
+FILES
+Filtered → output_filtered/   (76 conversations)
+Rejected → output_rejected/   (4 conversations — kept for inspection)
+Report   → rescore_reports\rescore_report_20260824_004725.txt

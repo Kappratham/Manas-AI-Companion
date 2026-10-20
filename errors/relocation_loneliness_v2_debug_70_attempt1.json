@@ -1,0 +1,39 @@
+{
+  "category": "relocation_loneliness",
+  "persona": {
+    "id": "p26",
+    "age": 21,
+    "gender": "female",
+    "background": "stress eating then restricting, cycle since board exams, not named as a problem yet",
+    "region": "Chandigarh",
+    "language": "english",
+    "presentation": "minimizing, deflecting, mentions it casually then pulls back",
+    "specific_pressure": "family comments on weight constantly, eating is loaded in every direction"
+  },
+  "seed": "I've started keeping the TV on in the background just for the sound of voices. It helps a little.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY:"
+    },
+    {
+      "role": "user",
+      "content": "I've started keeping the TV on in the background just for the sound of voices. It helps a little."
+    },
+    {
+      "role": "assistant",
+      "content": "The TV sounds can be comforting. What do you usually do when you're alone at home?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "category": "relationship_stress",
+  "persona": {
+    "id": "p14",
+    "age": 27,
+    "gender": "female",
+    "background": "UPSC aspirant, 4th attempt, family waiting, savings depleted, everyone around her has moved on",
+    "region": "Allahabad",
+    "language": "english",
+    "presentation": "identity completely fused with exam, does not know who she is outside of it",
+    "specific_pressure": "cannot quit because of family investment, cannot continue because emotionally depleted"
+  },
+  "seed": "My ex is dating my best friend. The betrayal feels worse than the breakup.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "My ex is dating my best friend. The betrayal feels worse than the breakup."
+    },
+    {
+      "role": "assistant",
+      "content": "I can feel the pain of betrayal. What's the first thing that comes to mind when you think about this situation?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

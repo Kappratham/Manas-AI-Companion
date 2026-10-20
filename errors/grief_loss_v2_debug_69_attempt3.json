@@ -1,0 +1,72 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p45",
+      "age": 26,
+      "gender": "female",
+      "background": "hearing impaired, exhausted by daily effort of navigating world not built for her, passing as hearing taking toll",
+      "region": "Bangalore",
+      "language": "english",
+      "presentation": "matter of fact, does not want pity, frustrated that she has to explain the exhaustion",
+      "specific_pressure": "people see the accommodation not the cost of providing it to herself daily"
+    },
+    "seed": "Lost my job. Grieving the version of myself that had purpose.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Lost my job. Grieving the version of myself that had purpose."
+      },
+      {
+        "role": "assistant",
+        "content": "You've lost your job. That's a big change. What's been the hardest part of adjusting to this new reality?"
+      },
+      {
+        "role": "user",
+        "content": "I don't want to feel sorry for myself. I just need to find a new job, that's all."
+      },
+      {
+        "role": "assistant",
+        "content": "You're trying to stay practical about it. But what's underneath that? What's it feel like to be without a job right now?"
+      },
+      {
+        "role": "user",
+        "content": "It's just...I don't know who I am anymore. I was always defined by my job, and now it's gone."
+      },
+      {
+        "role": "assistant",
+        "content": "You're wondering who you are outside of your job. That's a really tough question. What does it feel like to say that out loud?"
+      },
+      {
+        "role": "user",
+        "content": "I guess it feels like I'm just floating around, without any direction or purpose."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel lost and without direction. That's a really vulnerable feeling. What do you think would be one small step you could take to start finding your way again?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I guess just taking care of myself, I don't know, eating well and stuff?"
+      },
+      {
+        "role": "assistant",
+        "content": "You're thinking about taking care of yourself, which is a great place to start. What does it feel like to say that out loud, to acknowledge that you need to take care of yourself right now?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

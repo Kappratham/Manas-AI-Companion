@@ -1,0 +1,80 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p32",
+      "age": 37,
+      "gender": "female",
+      "background": "caretaker of mother with dementia for 3 years, own life on hold, exhausted, occasional resentment she feels guilty about",
+      "region": "Chennai",
+      "language": "english",
+      "presentation": "guilt about resentment, cannot name it without self-punishment",
+      "specific_pressure": "culturally this is her duty as daughter, no room to say it is destroying her"
+    },
+    "seed": "Lost my savings in a scam. Grieving the financial security I thought I had.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Lost my savings in a scam. Grieving the financial security I thought I had."
+      },
+      {
+        "role": "assistant",
+        "content": "You've lost something that was important to you. How are you feeling about that?"
+      },
+      {
+        "role": "user",
+        "content": "I'm just...fine, I guess. It's not a big deal, really."
+      },
+      {
+        "role": "assistant",
+        "content": "You're saying it's not a big deal, but I sense there might be more to it. Can you tell me what's been on your mind lately?"
+      },
+      {
+        "role": "user",
+        "content": "It's just...I don't know, I feel like I'm stuck. Like, I'm taking care of my mom and I feel guilty about it, but at the same time, I'm also grieving the life I wanted."
+      },
+      {
+        "role": "assistant",
+        "content": "You're carrying a heavy burden, and it sounds like it's affecting not just your finances, but also your sense of identity and purpose. What would it take for you to feel like you're moving forward, even if it's just a small step?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I just feel so overwhelmed all the time."
+      },
+      {
+        "role": "assistant",
+        "content": "You're feeling overwhelmed, and it's like you're drowning in responsibilities and emotions. What would it feel like to acknowledge that, to yourself, and not try to put on a brave face?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I just feel so guilty about resenting my mom."
+      },
+      {
+        "role": "assistant",
+        "content": "You're shouldering a lot of guilt, and it's like you're afraid to admit your own needs and feelings. What would it be like to give yourself permission to acknowledge those feelings, without judgment?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I just feel so lost."
+      },
+      {
+        "role": "assistant",
+        "content": "You're feeling lost, and it's like you're trying to navigate through uncharted territory. What would it feel like to allow yourself to be lost, to not have all the answers, and to simply be with your emotions?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

@@ -1,0 +1,25 @@
+RESCORE REPORT
+==============
+Date: 2026-08-22 21:28:02
+Min score threshold: 9/10
+Delete failing: yes
+Concurrency: 3
+
+CATEGORY RESULTS
+────────────────────────────────────────────────────────────────
+Category                  Total  Pass   Fail   Pass%  Deleted 
+burnout_motivation            63     59      4   93%         4
+────────────────────────────────────────────────────────────────
+TOTAL                         63     59      4   93%         4
+
+DIMENSION AVERAGES (passing conversations only)
+Arc Adherence             1.98
+Reflection Quality        2.00
+Question Discipline       1.86
+Cultural Groundedness     2.00
+Voice Consistency         2.00
+
+FILES
+Filtered → output_filtered/   (59 conversations)
+Rejected → output_rejected/   (4 conversations — kept for inspection)
+Report   → rescore_reports\rescore_report_20260822_212802.txt

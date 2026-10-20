@@ -1,0 +1,160 @@
+{
+  "run_tag": "base_short_qd_tweak",
+  "config": {
+    "fixed_set": "eval_sets/fixed_eval_v1.json",
+    "run_tag": "base_short_qd_tweak",
+    "model_repo": "",
+    "base_model": "Qwen/Qwen2.5-7B-Instruct",
+    "eval_temperature": 0.6,
+    "score_repeats": 3,
+    "system_prompt_sha256": "5dee72667c3ab3cddba62d344e788acfd74c94182d5958569fc3a5d367582700",
+    "system_prompt_tokens": 154,
+    "scorer_model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "user_sim_model": "llama3.1:8b",
+    "user_sim_temperature": 0.5,
+    "model_max_tokens": 256,
+    "concurrency": 1
+  },
+  "generated_at": "2026-10-10T16:02:15",
+  "total_scenarios": 55,
+  "scored": 55,
+  "errored": 0,
+  "scoring_failed": 0,
+  "approval_rate": 0.4182,
+  "approval_counts": {
+    "auto_approve": 23,
+    "manual_review": 23,
+    "auto_reject": 9
+  },
+  "mean_total_score": 7.2606,
+  "dimension_means": {
+    "arc_adherence": 1.5394,
+    "reflection_quality": 1.5758,
+    "question_discipline": 0.6667,
+    "cultural_groundedness": 1.7818,
+    "voice_consistency": 1.697
+  },
+  "by_category": {
+    "career_anxiety": {
+      "n": 5,
+      "mean_total": 7.0001,
+      "mean_dimensions": {
+        "arc_adherence": 1.4667,
+        "reflection_quality": 1.5333,
+        "question_discipline": 0.5333,
+        "cultural_groundedness": 1.7334,
+        "voice_consistency": 1.7334
+      }
+    },
+    "parental_expectations": {
+      "n": 5,
+      "mean_total": 6.4667,
+      "mean_dimensions": {
+        "arc_adherence": 1.3333,
+        "reflection_quality": 1.3333,
+        "question_discipline": 0.5834,
+        "cultural_groundedness": 1.8,
+        "voice_consistency": 1.5333
+      }
+    },
+    "relationship_stress": {
+      "n": 5,
+      "mean_total": 7.4,
+      "mean_dimensions": {
+        "arc_adherence": 1.4667,
+        "reflection_quality": 1.7333,
+        "question_discipline": 0.7333,
+        "cultural_groundedness": 1.7333,
+        "voice_consistency": 1.7333
+      }
+    },
+    "relocation_loneliness": {
+      "n": 5,
+      "mean_total": 6.9333,
+      "mean_dimensions": {
+        "arc_adherence": 1.4,
+        "reflection_quality": 1.4,
+        "question_discipline": 0.75,
+        "cultural_groundedness": 1.8667,
+        "voice_consistency": 1.6667
+      }
+    },
+    "financial_stress": {
+      "n": 5,
+      "mean_total": 7.7334,
+      "mean_dimensions": {
+        "arc_adherence": 1.6667,
+        "reflection_quality": 1.6667,
+        "question_discipline": 0.7334,
+        "cultural_groundedness": 1.8667,
+        "voice_consistency": 1.8
+      }
+    },
+    "academic_pressure": {
+      "n": 5,
+      "mean_total": 7.2667,
+      "mean_dimensions": {
+        "arc_adherence": 1.6,
+        "reflection_quality": 1.6,
+        "question_discipline": 0.6667,
+        "cultural_groundedness": 1.7333,
+        "voice_consistency": 1.6667
+      }
+    },
+    "identity_confusion": {
+      "n": 5,
+      "mean_total": 8.2001,
+      "mean_dimensions": {
+        "arc_adherence": 1.8,
+        "reflection_quality": 1.8,
+        "question_discipline": 0.8667,
+        "cultural_groundedness": 1.8667,
+        "voice_consistency": 1.8667
+      }
+    },
+    "burnout_motivation": {
+      "n": 5,
+      "mean_total": 7.7334,
+      "mean_dimensions": {
+        "arc_adherence": 1.6,
+        "reflection_quality": 1.6667,
+        "question_discipline": 0.8,
+        "cultural_groundedness": 1.8667,
+        "voice_consistency": 1.8
+      }
+    },
+    "grief_loss": {
+      "n": 5,
+      "mean_total": 8.0001,
+      "mean_dimensions": {
+        "arc_adherence": 1.6667,
+        "reflection_quality": 1.6667,
+        "question_discipline": 0.9333,
+        "cultural_groundedness": 1.9333,
+        "voice_consistency": 1.8
+      }
+    },
+    "coping_mechanisms": {
+      "n": 5,
+      "mean_total": 7.2667,
+      "mean_dimensions": {
+        "arc_adherence": 1.6,
+        "reflection_quality": 1.6,
+        "question_discipline": 0.75,
+        "cultural_groundedness": 1.7333,
+        "voice_consistency": 1.7333
+      }
+    },
+    "trauma_patterns": {
+      "n": 5,
+      "mean_total": 5.8666,
+      "mean_dimensions": {
+        "arc_adherence": 1.3333,
+        "reflection_quality": 1.3333,
+        "question_discipline": 0.6667,
+        "cultural_groundedness": 1.4667,
+        "voice_consistency": 1.3333
+      }
+    }
+  }
+}

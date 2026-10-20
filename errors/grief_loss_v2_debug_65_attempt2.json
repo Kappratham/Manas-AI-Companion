@@ -1,0 +1,84 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p10",
+      "age": 34,
+      "gender": "female",
+      "background": "nurse, government hospital, 12 hour shifts, secondary trauma from patient deaths, no support system at work",
+      "region": "Kerala",
+      "language": "english",
+      "presentation": "clinically detached, uses medical language to describe own distress",
+      "specific_pressure": "healthcare workers not supposed to struggle, expected to cope professionally"
+    },
+    "seed": "We had a complicated relationship and now I can't grieve cleanly because it's all mixed up with things that never got resolved.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "That's a heavy mix of emotions. Can you tell me more about what you mean by 'things that never got resolved'?"
+      },
+      {
+        "role": "user",
+        "content": "Just stuff we never talked about, I guess. Little things that added up. It's not a big deal."
+      },
+      {
+        "role": "assistant",
+        "content": "You're downplaying it a bit, aren't you? It sounds like there's more to it than just 'little things'."
+      },
+      {
+        "role": "user",
+        "content": "No, really, it's fine. I just need to... process it, I suppose."
+      },
+      {
+        "role": "assistant",
+        "content": "You're using medical language to describe your own distress. That takes a lot of emotional labor. What's it like to be around people who don't understand what you're going through?"
+      },
+      {
+        "role": "user",
+        "content": "It's... hard. They just don't get it. They think I'm fine, but I'm not fine."
+      },
+      {
+        "role": "assistant",
+        "content": "You're saying you're not fine, but nobody believes you. That's a really isolating feeling. What do you think would happen if you said that out loud - that you're not okay?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. I guess I'd just be seen as weak or something."
+      },
+      {
+        "role": "assistant",
+        "content": "You're worried about being seen as weak. That's a deep-seated fear. What do you think you would need to feel safe enough to be vulnerable like that?"
+      },
+      {
+        "role": "user",
+        "content": "I... I don't know."
+      },
+      {
+        "role": "assistant",
+        "content": "That's okay. It's not something you need to figure out right now. Can I suggest one small thing to help you feel a bit more grounded? Instead of trying to process everything at once, why don't you try writing down just one thing that's been on your mind lately - without editing or censoring yourself?"
+      },
+      {
+        "role": "user",
+        "content": "I guess that might help."
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here with you. That's all that matters right now."
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

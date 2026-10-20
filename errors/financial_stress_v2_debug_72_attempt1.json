@@ -1,0 +1,39 @@
+{
+  "category": "financial_stress",
+  "persona": {
+    "id": "p58",
+    "age": 34,
+    "gender": "male",
+    "background": "team lead, manages 8 people, was promoted for being technically excellent, has no idea how to manage humans, one team member cried in a meeting last week",
+    "region": "Bangalore",
+    "language": "english",
+    "presentation": "came to ask about management frameworks, underneath scared he is hurting people without knowing how",
+    "specific_pressure": "admitting he does not know how to lead feels like admitting the promotion was a mistake"
+  },
+  "seed": "I'm scared to take risks because if I fail, I have no safety net.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "Welcome to Manas, a supportive companion. I'm here to listen and help you navigate your thoughts and emotions."
+    },
+    {
+      "role": "user",
+      "content": "I'm scared to take risks because if I fail, I have no safety net."
+    },
+    {
+      "role": "assistant",
+      "content": "That makes sense. You feel uncertain about your financial situation, and that's causing you to hesitate. Is that a fair summary?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

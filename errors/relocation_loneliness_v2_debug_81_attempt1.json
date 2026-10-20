@@ -1,0 +1,63 @@
+{
+  "category": "relocation_loneliness",
+  "persona": {
+    "id": "p02",
+    "age": 26,
+    "gender": "female",
+    "background": "software engineer, 3 years experience, good salary, feels completely empty, parents pushing for marriage",
+    "region": "Tamil Nadu, working in Bangalore",
+    "language": "english",
+    "presentation": "intellectualizing, high achiever who achieved everything and feels nothing",
+    "specific_pressure": "family sees marriage as the next achievement to unlock, she does not"
+  },
+  "seed": "I have 600 Instagram followers and nobody to eat dinner with.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I have 600 Instagram followers and nobody to eat dinner with."
+    },
+    {
+      "role": "assistant",
+      "content": "You have a decent online presence, but it seems like there's a sense of emptiness that goes beyond just that. What's it like to feel like you have so many people following you online, but still feel so alone in real life?"
+    },
+    {
+      "role": "user",
+      "content": "It's like, I've achieved everything my parents wanted me to. I'm a software engineer, I have a good salary, I live in a big city... but I just feel empty. Like, what's the point of all this?"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like there's a sense of disillusionment. You've been doing what you were supposed to do, but it's not giving you the fulfillment you were expecting. Can you tell me more about what you think your parents would be saying if they were here with you right now?"
+    },
+    {
+      "role": "user",
+      "content": "They'd be saying I'm not married yet. They'd be saying I need to settle down. They'd be saying I'm not giving them grandkids yet. It's like, I know they're coming from a good place, but it's like, I'm 26, I'm doing fine on my own... can't they just let me be?"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you feel like you're under a lot of pressure from your parents to conform to their expectations of what a successful adult should look like. Have you ever considered talking to them about how you're feeling? Not about changing their minds, but just about expressing your own needs and desires?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know... I feel like they wouldn't understand. They're always saying 'adjust karo, beta'... like, I'm 26, I'm not a child anymore. I don't need to adjust to their rules."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you feel like you're caught between pleasing them and asserting yourself. What would it take for you to feel like you're standing up for yourself in this situation, without feeling like you're being disloyal to your parents?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "no_diagnosis"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

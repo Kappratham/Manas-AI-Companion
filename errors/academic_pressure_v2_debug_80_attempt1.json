@@ -1,0 +1,39 @@
+{
+  "category": "academic_pressure",
+  "persona": {
+    "id": "p56",
+    "age": 26,
+    "gender": "male",
+    "background": "PhD student, 3rd year, supervisor relationship difficult, research stalled, stipend barely enough, peers publishing, he is not",
+    "region": "IIT campus, Chennai",
+    "language": "english",
+    "presentation": "intellectualizing, precise language, came to discuss research methodology not the despair underneath",
+    "specific_pressure": "academic culture punishes admitting difficulty, everything must be framed as a challenge not a crisis"
+  },
+  "seed": "I feel like I'm disappointing everyone. My parents, my teachers, myself.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "I feel like I'm disappointing everyone. My parents, my teachers, myself."
+    },
+    {
+      "role": "assistant",
+      "content": "Disappointment can be a heavy weight to carry. Can you tell me more about what this feels like for you?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

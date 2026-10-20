@@ -1,0 +1,68 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p24",
+      "age": 33,
+      "gender": "male",
+      "background": "raised in household with alcoholic parent, now extremely controlled person, cannot tolerate uncertainty",
+      "region": "Goa",
+      "language": "english",
+      "presentation": "controlled, precise, uncomfortable with ambiguity, does not connect current behavior to past",
+      "specific_pressure": "relationship suffering because partner cannot reach him emotionally"
+    },
+    "seed": "I'm the one people lean on during hard times. When she died I didn't know who I was allowed to call.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "That's a heavy responsibility to carry. How did you manage to keep going?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, I just did. I mean, people needed me, so I was there for them."
+      },
+      {
+        "role": "assistant",
+        "content": "People needed you, but did you need them too? Was there anyone you could turn to when you were feeling overwhelmed?"
+      },
+      {
+        "role": "user",
+        "content": "No, I didn't want to burden anyone. I just kept things to myself."
+      },
+      {
+        "role": "assistant",
+        "content": "That must have been incredibly hard. It sounds like you've been carrying this weight alone for a long time. What does it feel like to say that out loud?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know... it just feels like I'm still trying to figure out who I am without her."
+      },
+      {
+        "role": "assistant",
+        "content": "You've been trying to find your way without her for a while now. What's one small thing that might help you take a step forward, even if it's just a tiny step?"
+      },
+      {
+        "role": "user",
+        "content": "I'm not sure... I don't know what to do."
+      },
+      {
+        "role": "assistant",
+        "content": "That's okay. You don't have to have all the answers right now. Sometimes just acknowledging the pain is enough. What do you need right now, even if it's just to not figure anything out tonight?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

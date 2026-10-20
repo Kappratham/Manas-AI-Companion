@@ -1,0 +1,83 @@
+{
+  "conversations": {
+    "category": "identity_confusion",
+    "persona": {
+      "id": "p60",
+      "age": 29,
+      "gender": "male",
+      "background": "HR professional, comes in to ask about managing difficult conversations at work, actual issue is that he cannot have difficult conversations in his own marriage",
+      "region": "Bangalore",
+      "language": "english",
+      "presentation": "professional framing of everything, uses corporate language to describe personal situations",
+      "specific_pressure": "can coach others through conflict, completely avoids it at home"
+    },
+    "seed": "Everyone my age seems to have something they care about deeply. I look for that in myself and I find nothing. Not sadness. Just nothing.",
+    "conversations": [
+      {
+        "role": "assistant",
+        "content": "I hear that there's nothing."
+      },
+      {
+        "role": "user",
+        "content": "Yeah, exactly. I'm trying to figure out what it is. It's not like I'm unhappy or anything."
+      },
+      {
+        "role": "assistant",
+        "content": "You're not looking for unhappiness. What do you mean by 'nothing'?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. It's hard to explain. I feel like I should be passionate about something, but I'm not."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you should be passionate about something, but you're not. Have you ever been passionate about anything in the past?"
+      },
+      {
+        "role": "user",
+        "content": "Not really. I've never been that into any particular thing."
+      },
+      {
+        "role": "assistant",
+        "content": "So it's not like you've lost interest in things you used to enjoy. It's more like you're not discovering anything new."
+      },
+      {
+        "role": "user",
+        "content": "I guess that's true."
+      },
+      {
+        "role": "assistant",
+        "content": "You guess that's true. What do you think is going on inside you that's making it hard to care about anything?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. It feels like I'm just numb to everything."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel numb to everything. What would it take for you to feel something again?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. That's the problem."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you don't know what would make you feel something again. What would be one small, manageable step for you to take towards feeling something?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "system_prompt_present",
+      "turns_range",
+      "response_length"
+    ],
+    "pass_count": 18,
+    "fail_count": 3,
+    "version": "v2"
+  }
+}

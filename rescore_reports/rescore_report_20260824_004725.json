@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-08-24 00:47:25",
+  "min_score": 9,
+  "delete_failing": true,
+  "concurrency": 3,
+  "categories": {
+    "trauma_patterns": {
+      "total": 80,
+      "pass": 76,
+      "fail": 4,
+      "pass_percentage": "95%",
+      "deleted": 4
+    }
+  },
+  "totals": {
+    "total": 80,
+    "passed": 76,
+    "failed": 4,
+    "pass_percentage": "95%",
+    "deleted": 4
+  },
+  "dimension_averages": {
+    "arc_adherence": 1.97,
+    "reflection_quality": 2.0,
+    "question_discipline": 1.83,
+    "cultural_groundedness": 2.0,
+    "voice_consistency": 2.0
+  }
+}

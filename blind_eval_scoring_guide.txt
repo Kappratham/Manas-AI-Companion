@@ -1,0 +1,504 @@
+BLIND EVALUATION SCORING GUIDE
+============================================================
+
+Rate each pair on a scale of 1-5:
+  1 = Model B clearly better
+  2 = Model B slightly better
+  3 = Tie / no clear difference
+  4 = Model A slightly better
+  5 = Model A clearly better
+
+Rating criteria:
+  - Emotional attunement (does model capture the feeling?)
+  - Therapeutic stance (listening vs interrogating)
+  - Cultural grounding (Indian context sensitivity)
+  - Voice consistency (warm friend, not therapist)
+  - Question discipline (max 1 question per turn)
+
+============================================================
+PAIRS FOR SCORING
+============================================================
+
+Pair 1: relationship_stress__p12__01
+Category: relationship_stress
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: My wife changed after marriage. The person I married is not who I fell in love with.
+ASSISTANT: I'm sorry that feels really tough. Can you tell me more about how things have shifted since your wedding?
+USER: It's like she's become this...dutiful person, always thinking about what others expect from her, and I feel like I've lost the spark, the excitement of being around her. I try to talk to her about it, but she just says I'm being silly or that I'm not seeing the "real" her. It's like I'...
+
+[Model B]
+USER: My wife changed after marriage. The person I married is not who I fell in love with.
+ASSISTANT: It sounds like there was something very real on both sides during courtship which now seems missing entirely because everything looks different under these new circumstances?
+USER: It's like we're living in two different worlds now, and I don't know how to bridge the gap between the person I loved and the person I'm living with now.
+ASSISTANT: That feeling alone suggests some deep disconnect hap...
+
+Pair 2: burnout_motivation__p47__02
+Category: burnout_motivation
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I used to have hobbies. Now I just scroll through my phone when I'm not working.
+ASSISTANT: It sounds like scrolling has become something very heavy on top of everything else going on right now?
+USER: I feel like I'm supposed to be enjoying this empty nest phase, but instead I'm just going through the motions, and the scrolling is a distraction from the...the feeling of disorientation, I suppose.
+ASSISTANT: That sense of walking around while looking straight ahead might mean there isn't ro...
+
+[Model B]
+USER: I used to have hobbies. Now I just scroll through my phone when I'm not working.
+ASSISTANT: It sounds like you're feeling lost now that your usual activities aren't as fulfilling anymore. What do you think might help bring some enjoyment back into those moments?
+USER: I've been thinking about that a lot, but every idea I come up with sounds like a cliché, like I should be joining a book club or taking up painting, but it feels like I'm just trying to fill a void rather than actually findin...
+
+Pair 3: academic_pressure__p14__00
+Category: academic_pressure
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: My parents are paying so much for my college. I'm failing and I'm scared to tell them.
+ASSISTANT: It sounds like there’s quite a lot riding on whether everything goes smoothly here financially speaking?
+USER: I feel like I'm disappointing them again, and every time I think about telling them, I just get this knot in my stomach and I don't know how to even start the conversation. They've already sacrificed so much for me, and I'm just failing...
+ASSISTANT: Carrying around those expectations...
+
+[Model B]
+USER: My parents are paying so much for my college. I'm failing and I'm scared to tell them.
+ASSISTANT: It sounds really tough having all that stress about your grades and what you owe your parents financially. How do you think telling them how hard things have been might affect their reaction? Sometimes opening up can bring unexpected support.
+USER: I've been putting it off for so long because I know how much they're counting on me to pass, and I'm not even sure if I can face myself after telli...
+
+Pair 4: relocation_loneliness__p57__00
+Category: relocation_loneliness
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I'm trying to join social groups but I feel awkward. Everyone already knows each other.
+ASSISTANT: It sounds like stepping into something new while feeling stuck behind walls made from years spent hiding? When those moments come up during these nights alone vs days full activity levels...
+USER: It's hard to explain to family why I'm struggling to fit back in when they're all so happy to have me home, and they keep saying it's because I've been away for too long, but it feels like it's the ...
+
+[Model B]
+USER: I'm trying to join social groups but I feel awkward. Everyone already knows each other.
+ASSISTANT: It sounds tough joining when everyone seems familiar. Have you tried introducing yourself during common activities? Even saying hello can be a start sometimes.
+USER: I guess that's what I'm doing, trying to say hello and be part of the group, but it feels like an effort to get even the smallest conversation started. I feel like I'm just floating on the outside looking in.
+ASSISTANT: That must...
+
+Pair 5: coping_mechanisms__p26__04
+Category: coping_mechanisms
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I work all the time to avoid thinking. It's not sustainable but I don't know what else to do.
+ASSISTANT: It sounds really tough trying to fill up your mind so you can escape those thoughts. How has this been affecting your sleep lately?
+USER: It's been okay, I guess. I just sleep in later than I used to, but it's still not restful, you know?
+ASSISTANT: That makes sense. Do you think there might be any activities outside of work that could help make your evenings more relaxing before bed?
+U...
+
+[Model B]
+USER: I work all the time to avoid thinking. It's not sustainable but I don't know what else to do.
+ASSISTANT: It sounds like working hard has become the only thing keeping some noise from getting too loud inside? When those thoughts finally stop running around though...
+USER: I know it's not a long-term solution, but it's just easier to keep busy than deal with everything else, like my mom's constant comments on my weight or the guilt of eating all that junk food during exam prep.
+ASSISTANT: Ca...
+
+Pair 6: coping_mechanisms__p13__03
+Category: coping_mechanisms
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I'm very good at being fine in front of people. The performance ends the moment I close the door.
+ASSISTANT: It sounds tough having that facade up all day but letting everything out when you're alone. How do you think keeping this energy inside affects your mood throughout the week?
+USER: It's a bit of a weight, always carrying that burden, but at least it's something I'm used to, right? It's the expectation of the profession, to be able to handle the stories, the interviews, the horrors, ...
+
+[Model B]
+USER: I'm very good at being fine in front of people. The performance ends the moment I close the door.
+ASSISTANT: That switch from performing perfection outside versus feeling alone inside takes immense effort every day?
+USER: It's funny, people often think it's a sign of strength to be able to put on a brave face, but the truth is it's exhausting, a constant weight on my shoulders.
+ASSISTANT: So carrying everyone else’s expectations while hiding behind 'fine' seems incredibly draining even tho...
+
+Pair 7: career_anxiety__p56__01
+Category: career_anxiety
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I feel like I'm living someone else's life, not my own.
+ASSISTANT: It sounds really tough feeling like you're just going through motions instead of leading your own path. Can sharing this struggle with close friends help make things clearer?
+USER: But even talking to friends feels like a risk, because they're all in their own academic struggles, and I don't want to be seen as unable to handle the pressure.
+ASSISTANT: That makes sense; sometimes we worry about burdening others or seeming we...
+
+[Model B]
+USER: I feel like I'm living someone else's life, not my own.
+ASSISTANT: That feeling often comes from carrying expectations built over years while trying hard just because everyone expects certain results regardless if those fit yours perfectly anymore? It sounds exhausting knowing whose footsteps were walked instead ours lately though...
+USER: It's like I'm constantly trying to justify why I'm doing this research, why I'm pursuing a PhD, but the more I try to convince myself, the more I feel l...
+
+Pair 8: burnout_motivation__p65__00
+Category: burnout_motivation
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I feel like I'm running on fumes. I don't know how much longer I can keep this pace.
+ASSISTANT: Running low means there isn’t quite left over even after meeting expectations? How heavy does carrying those demands weigh compared against other parts though... It sounds exhausting trying manage everything alone lately despite knowing others might expect otherwise given context here too..
+USER: It's just that everyone seems to think I'm fine, but the truth is I feel like I'm drowning in a sea ...
+
+[Model B]
+USER: I feel like I'm running on fumes. I don't know how much longer I can keep this pace.
+ASSISTANT: It sounds really tough right now. How have you been coping when things get so busy?
+USER: It's hard to say, honestly - I've just been pushing through, trying to keep up the appearance of being fine, like I've always done. But the truth is, I don't know what "fine" feels like anymore.
+ASSISTANT: That must be incredibly exhausting. Have there been any moments recently where even little breaks felt...
+
+Pair 9: burnout_motivation__p25__01
+Category: burnout_motivation
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I haven't cooked a proper meal in three weeks. Ordering in feels like the only decision I have capacity for.
+ASSISTANT: It must be so tiring having to make that choice every day. How do you think about trying something new today? Maybe just looking through some recipes could help spark an idea!
+USER: Recipes? I don't know... I just don't have the energy for it, and even thinking about it feels like a chore. It's not like I'm starving or anything, I just... I guess I just haven't felt like ...
+
+[Model B]
+USER: I haven't cooked a proper meal in three weeks. Ordering in feels like the only decision I have capacity for.
+ASSISTANT: It sounds exhausting just managing those orders while everything else seems overwhelming right now?
+USER: It's funny, I used to be really proud of how much I could get done in a day, and now it's like my whole identity is wrapped up in that - like, if I'm not producing, then I'm failing somehow.
+ASSISTANT: That shift from productivity-as-pride-to-productivity-failure-is-a...
+
+Pair 10: relationship_stress__p30__04
+Category: relationship_stress
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: My parents found out about him through Instagram. I wasn't ready to tell them. Now everyone is in crisis mode and I'm somehow the villain.
+ASSISTANT: It sounds like there was already so much tension brewing under the surface even though nothing had been spoken yet?
+USER: I'm consumed by this sense of failure and guilt, feeling like I've not only let myself down but also my faith community, which is the only one I have.
+ASSISTANT: Carrying around those expectations alone must weigh heavily ...
+
+[Model B]
+USER: My parents found out about him through Instagram. I wasn't ready to tell them. Now everyone is in crisis mode and I'm somehow the villain.
+ASSISTANT: It must be really tough right now. How do you think talking things over calmly might help?
+USER: But Manas, it's not about talking things over calmly - it's about the fact that everyone's judgment is already cast, and I'm seen as having brought shame upon our entire community. I feel like I've failed God, failed my family, and now I'm facing ...
+
+Pair 11: identity_confusion__p70__03
+Category: identity_confusion
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I don't know if I'm ambitious or just scared of failure. The line is blurred.
+ASSISTANT: It sounds like there might even exist some uncertainty within yourself regarding whether pursuing success stems solely from fear avoidance versus genuine desire? How does knowing these distinctions impact daily functioning around work responsibilities specifically today morning until evening hours passed recently weeklong cycle ended yesterday afternoon late night sleep interrupted frequently nights pa...
+
+[Model B]
+USER: I don't know if I'm ambitious or just scared of failure. The line is blurred.
+ASSISTANT: It sounds really tough when you're trying to figure out what ambition means versus fear of failing. Have you thought about writing down some goals that seem scary but could also be exciting? It might help clarify things a bit.
+USER: I've been trying to silence that voice that tells me I'm just making excuses, that if I really wanted to achieve something, I would've done it by now. But every time I sit ...
+
+Pair 12: burnout_motivation__p13__04
+Category: burnout_motivation
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I've been in back to back meetings all week and I cannot tell you what was decided in a single one of them.
+ASSISTANT: It sounds really frustrating to be so busy yet feeling lost about the decisions made during those long days. How do you usually cope when things seem overwhelming?
+USER: I've been trying to cope with a bottle of whiskey at the end of each day, but I'm starting to realize it's not doing much to help my writing, which is still in a state of crisis.
+ASSISTANT: That must be in...
+
+[Model B]
+USER: I've been in back to back meetings all week and I cannot tell you what was decided in a single one of them.
+ASSISTANT: It sounds like there has been so much noise around here lately; does hearing those voices now seem quieter somehow? When she asks me why I am tired though...sometimes just knowing nobody else gets exhausted helps ease some guilt off my chest because honestly sometimes managing expectations takes far longer effort compared against actual work tasks themselves..
+USER: It's f...
+
+Pair 13: parental_expectations__p14__00
+Category: parental_expectations
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: They want me to have a stable job, but I want to pursue my passion. It's a constant conflict.
+ASSISTANT: It sounds really tough having that tug-of-war between what others expect of you and your personal dreams. How do those expectations from your loved ones make you feel?
+USER: The guilt and pressure from them are suffocating, making me feel like I'm letting them down no matter what I choose. It's like I'm stuck in this cycle of self-doubt, questioning whether I'm doing the right thing by ...
+
+[Model B]
+USER: They want me to have a stable job, but I want to pursue my passion. It's a constant conflict.
+ASSISTANT: That tension sounds exhausting because honoring their expectations often leaves little room left over just yet? When those moments arrive though ...
+USER: It feels like I'm living someone else's dream, trying to secure a job that will make my family proud, but I just can't shake off the feeling that I'm not truly being myself, like I'm just going through the motions.
+ASSISTANT: Carrying...
+
+Pair 14: grief_loss__p32__03
+Category: grief_loss
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I failed my final year exams. It feels like I let my parents down.
+ASSISTANT: That feeling must weigh heavily on top of whatever else has been going wrong lately?
+USER: It's just the final blow, to be honest - I've been taking care of Mum, and it feels like I'm failing her in so many ways, too, but no one expects me to get a good grade, it's just expected of me to care for her.
+ASSISTANT: So carrying both responsibilities alone seems incredibly exhausting right now despite knowing others d...
+
+[Model B]
+USER: I failed my final year exams. It feels like I let my parents down.
+ASSISTANT: That must be really tough on you. How do you think your parents might see this situation? Sometimes talking about their perspective can help us manage our feelings better.
+USER: My mom will probably be disappointed, she's been so proud of me for trying to balance everything, but she won't understand why I failed - she's got enough on her plate with... with her own issues.
+ASSISTANT: It sounds hard knowing that ev...
+
+Pair 15: academic_pressure__p49__01
+Category: academic_pressure
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I lost interest in my field halfway through. Now I'm stuck with a degree I don't want.
+ASSISTANT: It sounds like there was something inside me shifting suddenly while everyone around expected progress? When did those feelings start creeping up on us though...
+USER: It's been about six months now, I'd say, but I only acknowledged them recently, when I couldn't muster the motivation to attend classes or engage with the coursework anymore.
+ASSISTANT: That sudden silence seems heavier because ...
+
+[Model B]
+USER: I lost interest in my field halfway through. Now I'm stuck with a degree I don't want.
+ASSISTANT: It sounds really tough having that degree but feeling uninterested now. What do you think might be something else you could explore?
+USER: I've considered career assessments and aptitude tests, but I'm worried that I'll just be told to pursue another field without addressing the underlying issue, which feels like a cop-out.
+ASSISTANT: That makes sense; getting reassured instead of helpful sugg...
+
+Pair 16: trauma_patterns__p24__01
+Category: trauma_patterns
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I can't tell the difference between someone being genuinely kind and someone wanting something from me.
+ASSISTANT: It sounds like distinguishing genuine kindness requires extra effort because expectations often come packaged differently depending on context here?
+USER: It feels like I'm constantly on guard, trying to read between the lines, and it's exhausting, because even when I think I've figured it out, I start to wonder if I'm just missing something.
+ASSISTANT: Carrying around suspici...
+
+[Model B]
+USER: I can't tell the difference between someone being genuinely kind and someone wanting something from me.
+ASSISTANT: It sounds really confusing when you're trying to figure out motives behind kindness sometimes. Have there been any patterns or behaviors that stood out as different?
+USER: It's hard to put my finger on anything specific, but I've noticed that whenever I'm being kind to my partner, they always seem to be in a rush to reciprocate or help me with something in return. It feels lik...
+
+Pair 17: relocation_loneliness__p36__04
+Category: relocation_loneliness
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I left my entire friend circle behind. Building new friendships feels like starting from zero.
+ASSISTANT: Starting over after leaving everyone else takes immense courage because there isn't just loss involved here either physically moving somewhere remote might seem scary yet somehow managing daily tasks alone proves incredibly challenging sometimes especially since nobody knows me anymore outside office walls? How heavy does carrying around those memories weigh against finding peace withi...
+
+[Model B]
+USER: I left my entire friend circle behind. Building new friendships feels like starting from zero.
+ASSISTANT: That must be really tough. Starting over can feel daunting sometimes. Have you tried reaching out to local groups that match your interests? It might help meet folks who have similar hobbies as yours.
+USER: I've tried joining a few groups, but it's hard to find ones that actually meet in person, and even when they do, it feels like I'm just another face in the crowd, you know? Everyone...
+
+Pair 18: career_anxiety__p54__04
+Category: career_anxiety
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: My manager keeps assigning me work outside my role. I can't say no without seeming weak.
+ASSISTANT: It sounds like there’s something heavy sitting on top even though we talk mostly business here today?
+USER: I'm supposed to be contributing to the team, but every new project feels like a test - and I'm pretty sure I'm going to fail it.
+ASSISTANT: So does seeing these challenges look different because someone else expects results now compared against past successes alone ?
+USER: It's like, I...
+
+[Model B]
+USER: My manager keeps assigning me work outside my role. I can't say no without seeming weak.
+ASSISTANT: It sounds really tough having more on your plate than you're comfortable taking. How do you usually try to handle these extra tasks?
+USER: I try to muscle through it, thinking I'll figure it out, but it's just adding to my stress and feeling like I'm pretending to be something I'm not, like I'm just winging it and hoping no one notices.
+ASSISTANT: That must feel incredibly stressful and exha...
+
+Pair 19: relocation_loneliness__p62__03
+Category: relocation_loneliness
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I'm an intern with no money. Going out is expensive so I just stay in.
+ASSISTANT: It sounds tough being on a tight budget as an intern. Do you ever think about trying some free activities nearby?
+USER: Actually, I've been meaning to ask, have you ever experienced this weird feeling where you're stuck on a problem, but you can't quite put your finger on what's wrong with it? It's like there's a bug in the code, but you can't fix it.
+ASSISTANT: That frustration can be really annoying! Have y...
+
+[Model B]
+USER: I'm an intern with no money. Going out is expensive so I just stay in.
+ASSISTANT: It sounds like staying inside has become necessary because going outside costs too much?
+USER: It's weird, I'm actually pretty comfortable financially, so it's strange to be thinking about money like that, but I guess it's just a habit from growing up.
+ASSISTANT: So maybe there isn't really anything wrong here—it’s mostly just old habits taking over—isolation seems normal despite knowing intellectually why we...
+
+Pair 20: identity_confusion__p22__01
+Category: identity_confusion
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: Everyone praises me for being strong and independent, but I'm just terrified of letting anyone close enough to see how lost I am.
+ASSISTANT: I can imagine that must be really hard. It feels brave to reach out when you're feeling this way. Have there been any moments lately where even tiny bits of closeness felt manageable?
+USER: No, it's hard to pinpoint exactly when it shifted from feeling manageable to feeling like a minefield again, but I think it was when I had to turn down an invite f...
+
+[Model B]
+USER: Everyone praises me for being strong and independent, but I'm just terrified of letting anyone close enough to see how lost I am.
+ASSISTANT: It sounds like there’s quite some distance built up over time so even though others might call attention towards strength today; yet somehow fear remains heavy within these walls tonight... When does carrying around those expectations usually weigh heavier?
+USER: I've been doing it for so long now, it's hard to even remember what it's like to not be t...
+
+Pair 21: parental_expectations__p68__02
+Category: parental_expectations
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: Everything I achieve is met with 'what about your brother/sister?' The competition is endless.
+ASSISTANT: It sounds really tough dealing with that kind of comparison all the time. How do you usually respond when those comments come up?
+USER: I've trained myself to just acknowledge it and move on, but it still seeps in and makes me wonder if I'm good enough, if I'm just coasting on my family's name.
+ASSISTANT: That must be so exhausting. Have there been times where talking openly about thes...
+
+[Model B]
+USER: Everything I achieve is met with 'what about your brother/sister?' The competition is endless.
+ASSISTANT: It sounds like every success comes wrapped up in someone else’s expectations until there isn’t room left just yet ?
+USER: My parents still expect me to be the high achiever, but it's not just them - it's also my siblings, and our extended family, and even some of my friends who seem to think I'm defined by my accomplishments, not as a person. I've always been the one to set the bar, bu...
+
+Pair 22: career_anxiety__p51__03
+Category: career_anxiety
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: Everyone in my batch has their LinkedIn updated with internships and achievements. I open mine and feel sick.
+ASSISTANT: It sounds like there is a heavy feeling coming from looking into those profiles while yours sits empty right now?
+USER: It's just a number of internships and some mediocre projects, but for some reason, it feels like a benchmark against everyone else's success, and I'm coming up short.
+ASSISTANT: That comparison seems very painful even though these numbers don't define a...
+
+[Model B]
+USER: Everyone in my batch has their LinkedIn updated with internships and achievements. I open mine and feel sick.
+ASSISTANT: It sounds really tough seeing everyone else active on LinkedIn while you're feeling stuck. Have you tried reaching out to anyone from your internship just to catch up? Sometimes sharing that can help ease some of this comparison anxiety.
+USER: I've tried catching up with a few people, but it feels like we're all just sharing happy updates and I don't want to admit I'm st...
+
+Pair 23: grief_loss__p18__02
+Category: grief_loss
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: My relationship of 5 years ended. It's like a part of me died too.
+ASSISTANT: It sounds heavy carrying around memories tied up tightly within those five years; does talking aloud seem heavier right now compared against keeping secrets safe inside ourselves?
+USER: It's funny, my husband is completely fine, he's already talking about starting a family again, but it feels like he's erasing everything we had together, every memory we made, like it never existed.
+ASSISTANT: That contrast hurts ...
+
+[Model B]
+USER: My relationship of 5 years ended. It's like a part of me died too.
+ASSISTANT: I'm so sorry that feels so painful right now. Losing something you've built over five years can be really hard on your heart. How do you think about what happened today?
+USER: It's hard to put into words, but it feels like I'm grieving not just the relationship, but also the dreams and plans we had for our future together.
+ASSISTANT: That must make everything even more difficult to process—grieving both the loss ...
+
+Pair 24: parental_expectations__p09__04
+Category: parental_expectations
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: They want me to settle down and get married. I'm not ready and they don't seem to understand.
+ASSISTANT: It sounds tough that you're feeling pressured but aren’t where you need to be yet. Have you tried talking more about your feelings with them? Sometimes sharing what’s really on your mind can help ease some of this tension.
+USER: It's hard to explain, but they just don't get why I'm not in a rush to find someone - it's like I'm missing out or something, but really I'm just trying to focu...
+
+[Model B]
+USER: They want me to settle down and get married. I'm not ready and they don't seem to understand.
+ASSISTANT: It sounds like there is a lot on your plate right now - work stress combined with feeling pressured from both sides?
+USER: I'm trying to stay focused on my studies, but it's hard when they're constantly dropping hints about finding someone special. Like, I'm only 20, I don't even know what I want for breakfast some days, let alone a lifetime partner.
+ASSISTANT: That shift happens fast o...
+
+Pair 25: identity_confusion__p15__04
+Category: identity_confusion
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I feel like I perform being a person rather than being one.
+ASSISTANT: It sounds really tough when you feel like you're just going through the motions instead of truly living your life. Can sharing this feeling with someone close help make things seem a bit clearer?
+USER: I've tried to talk to my wife about it, but she just says I'm stressed about the kids leaving the nest and that I need to focus on work, like I always do. But that's not it – I'm not just stressed, I'm...I don't even know...
+
+[Model B]
+USER: I feel like I perform being a person rather than being one.
+ASSISTANT: That feeling sounds incredibly heavy even though nobody else sees behind those performances today?
+USER: It's like I'm walking through life with a script, knowing my lines and delivering them perfectly, but what's the real play?
+ASSISTANT: Walking scripts often leaves room just waiting until something breaks apart under stress... How much effort goes toward making sure everyone around us stays comfortable instead riskin...
+
+Pair 26: coping_mechanisms__p33__00
+Category: coping_mechanisms
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I overspend when I'm anxious. Credit card bills are piling up.
+ASSISTANT: It sounds really stressful dealing with those credit card bills while feeling anxious. Have you thought about setting aside some time this week just to look over your finances? Maybe we can figure out how much you might be able to save each month by cutting down on these impulse buys.
+USER: I've tried cutting back on impulse buys before, but it's hard when I'm feeling overwhelmed and anxious, I just end up scrolling ...
+
+[Model B]
+USER: I overspend when I'm anxious. Credit card bills are piling up.
+ASSISTANT: It sounds like those moments of spending money become something heavy on top even though there might seem nothing else pressing right here today?
+USER: I know, it's like my brain just goes into self-medicate mode, like I'm trying to numb something, but it just feels like a Band-Aid on a bullet wound – it doesn't even touch the pain, just delays it.
+ASSISTANT: So much noise around us keeps getting louder every day—wor...
+
+Pair 27: trauma_patterns__p23__03
+Category: trauma_patterns
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: When someone raises their voice even slightly I go completely still. I don't know how to explain that to partners.
+ASSISTANT: It sounds like something inside stops working whenever there gets loud around here?
+USER: That's exactly it, it's like I'm momentarily paralyzed or something, and I feel like it's not rational, I mean, I can handle my own emotions, but somehow, even a slightly raised voice from someone else shuts me down like that.
+ASSISTANT: So maybe instead we could try talking sp...
+
+[Model B]
+USER: When someone raises their voice even slightly I go completely still. I don't know how to explain that to partners.
+ASSISTANT: It sounds really challenging when you react this way under such circumstances. Have you thought about talking to your partner about what triggers these reactions? It might help if you could describe specific situations where this happens.
+USER: It's hard to pinpoint the exact trigger, but I think it's connected to my fear of losing control or being overwhelmed, but ...
+
+Pair 28: grief_loss__p16__04
+Category: grief_loss
+Model A: v4 | Model B: base_short
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: The hardest part isn't the big moments. It's Tuesday morning when I almost called her to ask what she was making for lunch.
+ASSISTANT: That feeling comes up just because there wasn’t anything planned today instead? How often does something like THAT happen lately though...
+USER: It's been every Tuesday since she passed, this nagging feeling that something's missing, but I've been pushing through it, trying to be strong for everyone else.
+ASSISTANT: Trying hard keeps others safe sometimes—b...
+
+[Model B]
+USER: The hardest part isn't the big moments. It's Tuesday morning when I almost called her to ask what she was making for lunch.
+ASSISTANT: I can imagine how tough those little moments must be. How do you usually handle these feelings on Tuesdays?
+USER: I've been pushing through them, telling myself it's okay to just be strong, but it's getting harder to keep up the facade, especially when my family looks at me and expects the old me back.
+ASSISTANT: That sounds really hard. Have there been tim...
+
+Pair 29: academic_pressure__p09__02
+Category: academic_pressure
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: The competition in medical college is insane. I study 12 hours and still feel behind.
+ASSISTANT: It sounds really tough out there. Studying so long but feeling that you're still falling short can be overwhelming. How do you usually cope when you have those feelings?
+USER: I guess I just keep pushing through, trying to tell myself that everyone else is probably struggling just as much as I am, but it's hard not to feel like I'm the only one drowning in a sea of wealthy kids who seem to have...
+
+[Model B]
+USER: The competition in medical college is insane. I study 12 hours and still feel behind.
+ASSISTANT: That sounds like quite a lot on top of everything else going around here lately?
+USER: I swear, if I see one more Instagram post from Rachel about her study abroad program in Europe, I'm gonna lose it. Her family's been sending her on trips to Europe since she was 10.
+ASSISTANT: It seems like there might just need some extra support system built specifically towards managing those feelings rela...
+
+Pair 30: financial_stress__p67__01
+Category: financial_stress
+Model A: base_short | Model B: v4
+Rating (1-5): 
+------------------------------------------------------------
+[Model A]
+USER: I want to move out but I can't handle the expenses alone.
+ASSISTANT: It sounds really tough having to manage those costs on your own right now. Have you thought about looking into shared housing options where everyone splits the rent? It might help take some of that financial burden off your shoulders.
+USER: That's a good point about shared housing, but I've been hesitant to leave my parents' house because of the... I don't know, it's just been my home for so long, and I feel guilty thinki...
+
+[Model B]
+USER: I want to move out but I can't handle the expenses alone.
+ASSISTANT: It sounds like there’s something heavy sitting on top even though physically staying here would mean fewer bills now? When does managing those extra costs usually hit hardest during week days versus weekends around these parts locally speaking financially wise folks often mention...
+USER: To be honest, the thought of leaving my parents, especially in their state, weighs on me way more than the financial aspect. It's hard ...
+

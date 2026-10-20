@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-08-22 23:11:15",
+  "min_score": 9,
+  "delete_failing": true,
+  "concurrency": 3,
+  "categories": {
+    "relocation_loneliness": {
+      "total": 50,
+      "pass": 48,
+      "fail": 2,
+      "pass_percentage": "96%",
+      "deleted": 2
+    }
+  },
+  "totals": {
+    "total": 50,
+    "passed": 48,
+    "failed": 2,
+    "pass_percentage": "96%",
+    "deleted": 2
+  },
+  "dimension_averages": {
+    "arc_adherence": 1.98,
+    "reflection_quality": 2.0,
+    "question_discipline": 1.85,
+    "cultural_groundedness": 2.0,
+    "voice_consistency": 2.0
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p21",
+      "age": 23,
+      "gender": "male",
+      "background": "shuts down completely in conflict, then spirals in shame afterward, pattern since childhood with angry father",
+      "region": "Jaipur",
+      "language": "english",
+      "presentation": "analytical about the pattern, frustrated he cannot break it",
+      "specific_pressure": "partner is losing patience, he is losing patience with himself"
+    },
+    "seed": "Best friend moved abroad permanently. Knows it's not death but it feels like grief.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "That's a tough blow. What was your relationship like with your best friend?"
+      },
+      {
+        "role": "user",
+        "content": "It was just a close friend, not super close. But I guess it's like, I'm just feeling really left behind and I don't know what to do."
+      },
+      {
+        "role": "assistant",
+        "content": "Feeling left behind can be really hard to deal with. Did you guys have plans for the future together, or was it more of a casual friendship?"
+      },
+      {
+        "role": "user",
+        "content": "No, we didn't really have plans or anything. I'm just feeling really guilty for feeling this way, like I'm overreacting or something."
+      },
+      {
+        "role": "assistant",
+        "content": "You're not overreacting. It sounds like you're feeling a deep sense of loss, and that's okay. What do you think is making it feel so hard to accept this change?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, I guess I just feel like I'm not good at handling change or something. And now my partner is getting on my case about it too, so it's just making it worse."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're feeling a lot of pressure from your partner, and that's adding to your stress. Have you talked to them about how you're feeling, or is this something you're trying to deal with on your own?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, I just don't want to burden them with my problems, you know?"
+      },
+      {
+        "role": "assistant",
+        "content": "It can be hard to know how to talk about our feelings, especially when we feel like we're burdening others. What do you think would feel like a small step for you, just to start moving forward with this change?"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a good start. What do you need right now, in this moment, to help you deal with this grief?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

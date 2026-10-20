@@ -1,0 +1,92 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p04",
+      "age": 29,
+      "gender": "female",
+      "background": "product manager at startup, high performer, team depends on her, own needs last",
+      "region": "Delhi",
+      "language": "english",
+      "presentation": "stoic, minimizing, occasional dark humor",
+      "specific_pressure": "cannot afford to break down, too many people need her to be okay"
+    },
+    "seed": "Lost my job during the pandemic. Grieving the career I built for years.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "That's a big loss. How are you holding up?"
+      },
+      {
+        "role": "user",
+        "content": "I'm fine. I mean, it's not like I'm going to die or anything."
+      },
+      {
+        "role": "assistant",
+        "content": "You sound a bit guarded. Is there something you're worried about that you don't want to talk about?"
+      },
+      {
+        "role": "user",
+        "content": "No, it's just...I don't know how to start over again. I feel like I've wasted so much time."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're feeling a lot of pressure to get back on track, but it's not just about getting back to work. What's underneath that feeling of waste?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. I just feel like I've let everyone down, I guess."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a heavy burden to carry. Have you talked to anyone about how you're feeling, or is this all inside your head?"
+      },
+      {
+        "role": "user",
+        "content": "No, I don't want to burden anyone. I can handle this on my own."
+      },
+      {
+        "role": "assistant",
+        "content": "I hear that you don't want to be a burden, but sometimes talking to someone who can listen without judgment can be really helpful. Would you be open to trying that?"
+      },
+      {
+        "role": "user",
+        "content": "I...I don't know."
+      },
+      {
+        "role": "assistant",
+        "content": "It's okay, you don't have to figure anything out right now. Sometimes just acknowledging the weight of it all can be a big step. What would it feel like to say that out loud to someone who could listen?"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a big ask. What would it take for you to feel like you could trust someone with this?"
+      },
+      {
+        "role": "assistant",
+        "content": "You've been carrying this for a long time. What does it feel like to say that out loud, even if it's just to me?"
+      },
+      {
+        "role": "assistant",
+        "content": "Just one thing. What's one small, manageable step you could take right now to acknowledge the weight of all this?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yeah. Sometimes just sitting with it is enough for now. Is that okay with you?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

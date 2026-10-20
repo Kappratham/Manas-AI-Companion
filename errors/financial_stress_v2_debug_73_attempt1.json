@@ -1,0 +1,39 @@
+{
+  "category": "financial_stress",
+  "persona": {
+    "id": "p44",
+    "age": 38,
+    "gender": "male",
+    "background": "spiritual crisis after major life trauma, cannot reconcile what happened with what he believed",
+    "region": "Amritsar",
+    "language": "english",
+    "presentation": "anger at God framed as questioning, grief underneath",
+    "specific_pressure": "community expects faith to be the answer to trauma, for him it is the question"
+  },
+  "seed": "I took a loan for a business that failed. The EMIs are suffocating me.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY:"
+    },
+    {
+      "role": "user",
+      "content": "I took a loan for a business that failed. The EMIs are suffocating me."
+    },
+    {
+      "role": "assistant",
+      "content": "I hear that the loan and EMIs are causing a lot of stress. How have you been managing to cope with this financial burden?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

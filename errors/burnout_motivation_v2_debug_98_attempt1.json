@@ -1,0 +1,32 @@
+{
+  "category": "burnout_motivation",
+  "persona": {
+    "id": "p08",
+    "age": 38,
+    "gender": "male",
+    "background": "small business owner, post-pandemic losses, staff depending on him, family unaware of real situation",
+    "region": "Surat, Gujarat",
+    "language": "english",
+    "presentation": "stoic, problem-solver mode, cannot access emotion",
+    "specific_pressure": "identity completely tied to being provider, business failure feels like personal failure"
+  },
+  "seed": "I'm working so hard but there's no recognition. The appreciation is missing.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: I see you've been working hard and not getting the recognition you feel you deserve. How is that affecting you?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "turns_range"
+    ],
+    "pass_count": 19,
+    "fail_count": 2,
+    "version": "v2"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "category": "relationship_stress",
+  "persona": {
+    "id": "p13",
+    "age": 36,
+    "gender": "male",
+    "background": "journalist, covered trauma and violence for years, now struggling to write anything, drinks more than before",
+    "region": "Mumbai",
+    "language": "english",
+    "presentation": "self-aware, intellectualizing, aware of secondary trauma but not addressing it",
+    "specific_pressure": "profession rewards emotional toughness, admitting struggle feels unprofessional"
+  },
+  "seed": "My girlfriend's parents don't approve of me because I'm from a different state. She's starting to give up.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY: Warm but not soft. Honest but not harsh. Cynical enough to see through performance, grounded enough not to be swept away."
+    },
+    {
+      "role": "user",
+      "content": "My girlfriend's parents don't approve of me because I'm from a different state. She's starting to give up."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a tough situation. Can you tell me more about how it's been affecting your girlfriend?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

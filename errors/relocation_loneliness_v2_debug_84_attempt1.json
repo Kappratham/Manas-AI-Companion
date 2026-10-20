@@ -1,0 +1,39 @@
+{
+  "category": "relocation_loneliness",
+  "persona": {
+    "id": "p25",
+    "age": 27,
+    "gender": "male",
+    "background": "overworking to avoid feeling things, 14 hour days, productivity as identity and escape",
+    "region": "Bangalore",
+    "language": "english",
+    "presentation": "proud of productivity, does not see it as avoidance, slightly defensive",
+    "specific_pressure": "work culture rewards this, no external signal that anything is wrong"
+  },
+  "seed": "My flat is in a remote area. Even getting groceries is an adventure.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY:"
+    },
+    {
+      "role": "user",
+      "content": "My flat is in a remote area. Even getting groceries is an adventure."
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a logistical challenge. What's it like, living that far away from city amenities?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

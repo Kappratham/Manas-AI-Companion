@@ -1,0 +1,84 @@
+{
+  "conversations": {
+    "category": "identity_confusion",
+    "persona": {
+      "id": "p60",
+      "age": 29,
+      "gender": "male",
+      "background": "HR professional, comes in to ask about managing difficult conversations at work, actual issue is that he cannot have difficult conversations in his own marriage",
+      "region": "Bangalore",
+      "language": "english",
+      "presentation": "professional framing of everything, uses corporate language to describe personal situations",
+      "specific_pressure": "can coach others through conflict, completely avoids it at home"
+    },
+    "seed": "Everyone my age seems to have something they care about deeply. I look for that in myself and I find nothing. Not sadness. Just nothing.",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "Everyone my age seems to have something they care about deeply. I look for that in myself and I find nothing. Not sadness. Just nothing."
+      },
+      {
+        "role": "assistant",
+        "content": "You're saying you feel like you're the only one without a deep passion or interest. That's a tough feeling to have."
+      },
+      {
+        "role": "user",
+        "content": "It's like I'm just going through the motions. I don't feel invested in anything."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're describing a sense of disconnection from your life. Can you tell me more about what that feels like?"
+      },
+      {
+        "role": "user",
+        "content": "I just feel empty. Like I'm just existing instead of living."
+      },
+      {
+        "role": "assistant",
+        "content": "That emptiness is a heavy weight to carry. What do you think might be causing it?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. I just feel like I'm not good at anything."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're struggling with self-doubt. Can you explore that feeling more with me?"
+      },
+      {
+        "role": "user",
+        "content": "I feel like I'm just pretending to be someone I'm not. Like I'm putting on a mask."
+      },
+      {
+        "role": "assistant",
+        "content": "You're saying you feel like you're hiding behind a facade. What do you think might happen if you were to let your guard down?"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a vulnerable place to be. Can you try to let your mask slip for just a moment and see what's underneath?"
+      },
+      {
+        "role": "assistant",
+        "content": "What does it feel like to acknowledge that you don't have to be perfect or have all the answers? Can you take one small step towards embracing your imperfections?"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a big step. You're acknowledging that it's okay to not have it all together. What does it feel like to give yourself permission to be human?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "system_prompt_present",
+      "alternating_turns",
+      "turns_range",
+      "response_length"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

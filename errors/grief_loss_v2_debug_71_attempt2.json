@@ -1,0 +1,80 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p29",
+      "age": 24,
+      "gender": "female",
+      "background": "queer, family does not know, engaged to man she does not love because easier than truth",
+      "region": "Ahmedabad",
+      "language": "english",
+      "presentation": "calm exterior, massive internal contradiction, came to talk about wedding stress not identity",
+      "specific_pressure": "wedding in 6 months, cannot name the real issue even to herself fully"
+    },
+    "seed": "Divorce after 10 years. Grieving the family I thought I'd have.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Divorce after 10 years. Grieving the family I thought I'd have."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a tough loss. What's been the hardest part for you so far?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know... it's just that I thought I'd have this family. Now it's just... not going to happen."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like there's a sense of disappointment. What does that feel like in your body?"
+      },
+      {
+        "role": "user",
+        "content": "It feels like... I don't know, it feels like I'm stuck. Like I'm just going through the motions."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel trapped. Is it like you're living in a dream or something, and you don't know how to wake up?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, that's exactly it. It's like I'm just pretending to be okay with this."
+      },
+      {
+        "role": "assistant",
+        "content": "You're not okay with it. You're feeling like you're hiding something from yourself. Is that right?"
+      },
+      {
+        "role": "user",
+        "content": "I guess so. I don't know, it's just really hard to admit that I'm not okay with it."
+      },
+      {
+        "role": "assistant",
+        "content": "It takes a lot of courage to admit when you're not okay. What do you think you need right now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know... maybe just to not think about it for a little while?"
+      },
+      {
+        "role": "assistant",
+        "content": "You need some space from it. Can you give yourself permission to take a step back and focus on something else for a little while?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

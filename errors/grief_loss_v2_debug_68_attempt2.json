@@ -1,0 +1,76 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p27",
+      "age": 25,
+      "gender": "male",
+      "background": "drinks every evening to wind down, tells himself it is social, alone most evenings",
+      "region": "Mumbai",
+      "language": "english",
+      "presentation": "aware it is more than social, not ready to name it, came to talk about stress not drinking",
+      "specific_pressure": "family has history of alcoholism he does not want to repeat but is not examining"
+    },
+    "seed": "My father died six weeks ago. I coordinated the entire funeral. I haven't cried yet. I don't know what that means.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "My father died six weeks ago. I coordinated the entire funeral. I haven't cried yet. I don't know what that means."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a lot to take in. How have you been feeling since the funeral?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. I just feel... numb, I guess. I've been busy with work and stuff."
+      },
+      {
+        "role": "assistant",
+        "content": "You're managing to keep busy, but the feeling of numbness is still there. What do you think might happen if you did allow yourself to feel?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know. I just don't want to get all emotional and stuff. I'm not sure I can handle it."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like there's a part of you that's afraid of getting overwhelmed. Have you always been someone who avoids strong emotions, or is this a new experience for you?"
+      },
+      {
+        "role": "user",
+        "content": "I guess I have always been like this. I just don't want to be a mess in front of people."
+      },
+      {
+        "role": "assistant",
+        "content": "You're worried about what others might think. But what do you think your father would say if he knew how you're feeling right now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know... I just wish I could talk to him."
+      },
+      {
+        "role": "assistant",
+        "content": "He's not here to talk to in person, but it sounds like you're carrying a lot of weight on your own. Would it be helpful to talk to someone about your feelings, even if it's just to process them?"
+      },
+      {
+        "role": "assistant",
+        "content": "What do you think might happen if you did allow yourself to feel, and to talk to someone about your feelings?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

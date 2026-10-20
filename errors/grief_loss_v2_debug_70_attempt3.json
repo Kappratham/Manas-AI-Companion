@@ -1,0 +1,76 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p45",
+      "age": 26,
+      "gender": "female",
+      "background": "hearing impaired, exhausted by daily effort of navigating world not built for her, passing as hearing taking toll",
+      "region": "Bangalore",
+      "language": "english",
+      "presentation": "matter of fact, does not want pity, frustrated that she has to explain the exhaustion",
+      "specific_pressure": "people see the accommodation not the cost of providing it to herself daily"
+    },
+    "seed": "I'm the one people lean on during hard times. When she died I didn't know who I was allowed to call.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "You've been through a lot. What's been the hardest part of this experience for you?"
+      },
+      {
+        "role": "user",
+        "content": "It's just...I don't know, I'm fine. I just didn't know who to call when it happened."
+      },
+      {
+        "role": "assistant",
+        "content": "You said you're fine, but it sounds like there's something you're not saying. What's really going on for you?"
+      },
+      {
+        "role": "user",
+        "content": "No, I'm really okay. I just...I don't know who to turn to, that's all."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're feeling a bit isolated. Have you reached out to anyone for support?"
+      },
+      {
+        "role": "user",
+        "content": "No, I don't want to burden anyone. I can handle it on my own."
+      },
+      {
+        "role": "assistant",
+        "content": "You're carrying a lot of weight on your own. What would it take for you to consider reaching out for help?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I guess I just feel like I'm a burden to everyone around me."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're feeling a bit invisible. What would it take for you to feel seen and supported right now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I just feel so alone."
+      },
+      {
+        "role": "assistant",
+        "content": "You're not alone. What if I said you don't have to do this by yourself? What's one small thing that might help you feel a bit more supported right now?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

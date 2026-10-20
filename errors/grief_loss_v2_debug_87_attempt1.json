@@ -1,0 +1,39 @@
+{
+  "category": "grief_loss",
+  "persona": {
+    "id": "p59",
+    "age": 24,
+    "gender": "female",
+    "background": "graphic designer, comes in to talk about creative block, actual issue is a relationship that ended badly 4 months ago that she has not processed",
+    "region": "Delhi",
+    "language": "english",
+    "presentation": "matter of fact about the block, deflects personal questions with humor, opens slowly",
+    "specific_pressure": "has convinced herself the relationship is over and she is fine, she is not fine"
+  },
+  "seed": "I'm the one people lean on during hard times. When she died I didn't know who I was allowed to call.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "I'm here to listen without judgment. You can share whatever you'd like, and I'll do my best to understand."
+    },
+    {
+      "role": "user",
+      "content": "I'm the one people lean on during hard times. When she died I didn't know who I was allowed to call."
+    },
+    {
+      "role": "assistant",
+      "content": "You're someone people rely on, and that's a lot of pressure. Can you tell me more about what it's been like since she passed away?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

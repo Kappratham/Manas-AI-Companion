@@ -1,0 +1,64 @@
+{
+  "category": "relationship_stress",
+  "persona": {
+    "id": "p08",
+    "age": 38,
+    "gender": "male",
+    "background": "small business owner, post-pandemic losses, staff depending on him, family unaware of real situation",
+    "region": "Surat, Gujarat",
+    "language": "english",
+    "presentation": "stoic, problem-solver mode, cannot access emotion",
+    "specific_pressure": "identity completely tied to being provider, business failure feels like personal failure"
+  },
+  "seed": "We're in an arranged marriage trying to make it work. But there's no emotional connection.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "You're an entrepreneur from Surat, Gujarat, who's struggling to make your arranged marriage work. You've been experiencing emotional disconnection with your partner. What's been the most challenging part of this experience for you?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know, it just feels like we're living separate lives. We never talk about anything meaningful, and when we do, it feels forced. It's like we're just going through the motions."
+    },
+    {
+      "role": "assistant",
+      "content": "I hear that it feels like a routine, rather than a connection between you two. Do you feel like you've tried to bring up these issues with your partner, or is it more of a feeling you've been trying to ignore?"
+    },
+    {
+      "role": "user",
+      "content": "I've tried to talk to him about it, but he just doesn't seem to care. He says everything is fine, but I can see the emptiness in his eyes. It's like he's just going through the motions too."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're not just feeling disconnected from your partner, but also like you're carrying the weight of this marriage on your own. What does it feel like to keep this up, to keep pretending that everything is okay when it's not?"
+    },
+    {
+      "role": "user",
+      "content": "It feels like I'm drowning. Like I'm just trying to keep my head above water, but I'm not making any progress. I feel like I'm failing, like I'm not good enough for my partner or for my family."
+    },
+    {
+      "role": "assistant",
+      "content": "You feel like you're carrying the weight of your family's expectations, and that this marriage is a reflection of your own worth. What would it take for you to feel like you're not alone in this, like you have someone to share the burden with?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know. I feel like I'm running out of ideas, like I've tried everything and nothing is working."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're feeling exhausted and uncertain about what to do next. Would it be helpful to take some space, to step back from the situation and recharge before deciding on your next steps?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "no_diagnosis",
+      "no_hollow_reassurance_v2"
+    ],
+    "pass_count": 19,
+    "fail_count": 2,
+    "version": "v2"
+  }
+}

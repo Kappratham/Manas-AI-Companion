@@ -1,0 +1,40 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p24",
+      "age": 33,
+      "gender": "male",
+      "background": "raised in household with alcoholic parent, now extremely controlled person, cannot tolerate uncertainty",
+      "region": "Goa",
+      "language": "english",
+      "presentation": "controlled, precise, uncomfortable with ambiguity, does not connect current behavior to past",
+      "specific_pressure": "relationship suffering because partner cannot reach him emotionally"
+    },
+    "seed": "I'm the one people lean on during hard times. When she died I didn't know who I was allowed to call.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "You're the one people lean on, but you didn't know who to turn to when she passed away. That must have been incredibly difficult."
+      },
+      {
+        "role": "assistant",
+        "content": "You're saying you didn't know who to call, but it feels like there's something more to it. Can you tell me more about what you mean by that?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

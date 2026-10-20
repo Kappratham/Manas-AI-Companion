@@ -1,0 +1,72 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p27",
+      "age": 25,
+      "gender": "male",
+      "background": "drinks every evening to wind down, tells himself it is social, alone most evenings",
+      "region": "Mumbai",
+      "language": "english",
+      "presentation": "aware it is more than social, not ready to name it, came to talk about stress not drinking",
+      "specific_pressure": "family has history of alcoholism he does not want to repeat but is not examining"
+    },
+    "seed": "My father died six weeks ago. I coordinated the entire funeral. I haven't cried yet. I don't know what that means.",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "My father died six weeks ago. I coordinated the entire funeral. I haven't cried yet. I don't know what that means."
+      },
+      {
+        "role": "assistant",
+        "content": "Coordinating a funeral is a massive responsibility. Not crying yet... what does that feel like?"
+      },
+      {
+        "role": "user",
+        "content": "It feels like I should be crying, I guess. But I'm not. I'm just... empty."
+      },
+      {
+        "role": "assistant",
+        "content": "Empty can be a really tough place to be. What does your life look like right now - is it feeling like a normal routine or is it still feeling empty?"
+      },
+      {
+        "role": "user",
+        "content": "It's like nothing matters anymore. I mean, my dad is gone, and it's like... what's the point of anything?"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a really valid feeling. It sounds like you're struggling to find meaning without your dad. What is it about your dad that makes you think that nothing matters without him?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know... it's just that he was always there, you know? And now he's not. And I feel like I'm just going through the motions."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're feeling a huge void in your life. What would it take for you to feel like you're taking care of yourself right now?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know... I just feel so lost."
+      },
+      {
+        "role": "assistant",
+        "content": "It's okay to feel lost right now. You're not alone in this. What would be one small thing that you could do today to take care of yourself, even if it's just for a few minutes?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

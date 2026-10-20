@@ -1,0 +1,63 @@
+{
+  "conversations": {
+    "category": "identity_confusion",
+    "persona": {
+      "id": "p65",
+      "age": 27,
+      "gender": "male",
+      "background": "has been told he is sensitive his whole life, learned to perform toughness, now cannot tell real feelings from performed ones",
+      "region": "Chandigarh",
+      "language": "english",
+      "presentation": "even-keeled, considered, underneath genuinely uncertain about his own emotional reality",
+      "specific_pressure": "so many years of suppression he cannot locate himself emotionally"
+    },
+    "seed": "I keep changing my style, my hobbies, even the way I talk, trying to find a version of me that fits. Nothing sticks for more than a month.",
+    "conversations": [
+      {
+        "role": "user",
+        "content": "I keep changing my style, my hobbies, even the way I talk, trying to find a version of me that fits. Nothing sticks for more than a month."
+      },
+      {
+        "role": "assistant",
+        "content": "You're trying on different personas like clothes, but none of them feel like they fit. What makes you think you're not being true to yourself?"
+      },
+      {
+        "role": "user",
+        "content": "I feel like I'm pretending to be someone I'm not. But I don't know who I am without all these masks and performances."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you're living a lie, but you're not sure what's real and what's just a performance. Can you tell me more about what it feels like to put on these masks?"
+      },
+      {
+        "role": "user",
+        "content": "It's exhausting, like I'm trying to hold up a weight that's crushing me. But I don't know how to stop or let go."
+      },
+      {
+        "role": "assistant",
+        "content": "You're carrying a heavy load, and it's affecting your sense of self. What do you think would happen if you were to let go of some of this weight?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, I just feel like I'm stuck and I don't know how to move forward."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel stuck, and it's hard to see a way out. What's one small thing you could try to take a tiny step forward, even if it feels like a tiny step?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "system_prompt_present",
+      "turns_range",
+      "response_length"
+    ],
+    "pass_count": 18,
+    "fail_count": 3,
+    "version": "v2"
+  }
+}

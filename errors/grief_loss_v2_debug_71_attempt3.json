@@ -1,0 +1,80 @@
+{
+  "conversation": {
+    "category": "grief_loss",
+    "persona": {
+      "id": "p29",
+      "age": 24,
+      "gender": "female",
+      "background": "queer, family does not know, engaged to man she does not love because easier than truth",
+      "region": "Ahmedabad",
+      "language": "english",
+      "presentation": "calm exterior, massive internal contradiction, came to talk about wedding stress not identity",
+      "specific_pressure": "wedding in 6 months, cannot name the real issue even to herself fully"
+    },
+    "seed": "Divorce after 10 years. Grieving the family I thought I'd have.",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "That's a lot to carry. What's been on your mind about the wedding?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, it's just a lot of stress. I feel like I'm doing what everyone expects of me."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you're living up to other people's expectations. What's it like to say that out loud?"
+      },
+      {
+        "role": "user",
+        "content": "It's just easier to go along with things, you know? I don't want to cause any trouble."
+      },
+      {
+        "role": "assistant",
+        "content": "You're worried about causing trouble. But what's the trouble you're worried about causing, exactly?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, it's just...I feel like I'm disappointing everyone."
+      },
+      {
+        "role": "assistant",
+        "content": "You feel like you're disappointing everyone. That's a heavy burden. What would it take for you to feel like you're standing up for yourself in this situation?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I guess just being honest with them, I guess."
+      },
+      {
+        "role": "assistant",
+        "content": "Being honest with them is what you want. But what would it take for you to feel safe being honest with them?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know...I don't know what the consequences would be."
+      },
+      {
+        "role": "assistant",
+        "content": "You're worried about the consequences. But what if the consequences were less dire than you think? What if being honest with them was the first step towards a different kind of outcome?"
+      },
+      {
+        "role": "assistant",
+        "content": "What's one small step you could take towards being honest with them?"
+      }
+    ],
+    "has_crisis_signal": false
+  },
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "conversations_field_exists",
+      "system_prompt_present",
+      "turns_range",
+      "json_valid"
+    ],
+    "pass_count": 17,
+    "fail_count": 4,
+    "version": "v2"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "category": "parental_expectations",
+  "persona": {
+    "id": "p51",
+    "age": 25,
+    "gender": "female",
+    "background": "data analyst, 2 years in, good performance reviews, applied for a promotion that went to a less qualified male colleague, smiling through it",
+    "region": "Bangalore",
+    "language": "english",
+    "presentation": "composed, analytical, came to talk about career planning not the anger underneath",
+    "specific_pressure": "naming what happened as unfair feels risky professionally, so she is not naming it"
+  },
+  "seed": "I told my parents I'm seeing a therapist. They asked me to keep it quiet so the relatives don't find out.",
+  "conversations": [
+    {
+      "role": "system",
+      "content": "MANAS IDENTITY:"
+    },
+    {
+      "role": "user",
+      "content": "I told my parents I'm seeing a therapist. They asked me to keep it quiet so the relatives don't find out."
+    },
+    {
+      "role": "assistant",
+      "content": "You told your parents about therapy. That's a big step. What's it like keeping it a secret from your relatives?"
+    }
+  ],
+  "has_crisis_signal": false,
+  "validation": {
+    "passed": false,
+    "checks_run": 21,
+    "checks_failed": [
+      "turns_range"
+    ],
+    "pass_count": 20,
+    "fail_count": 1,
+    "version": "v2"
+  }
+}

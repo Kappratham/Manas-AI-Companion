@@ -1,0 +1,60 @@
+# Secrets
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.db
+celerybeat-schedule
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Claude/AI tooling
+.claude/
+.claude-flow/
+.agents/
+.codex/
+skills-lock.json
+
+# Large data files
+blind_eval_base_short_v4_30.json
+blind_eval_pairs.json
+manas.zip
+manas_colab_eval.ipynb
+
+# Output directories
+output/
+output_backup/
+output_filtered/
+output_rejected/
+formatted/
+reports/
+eval/
+eval_sets/
+docs/
+prompts/
+validators/
+dataset/
+errors/
+rescore_reports/
+eval_runs/
+adapted_data/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
